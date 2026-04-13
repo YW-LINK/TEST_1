@@ -1,0 +1,270 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "F28004x" --part "F28004x_100PZ" --package "F28004x_100PZ" --context "system" --product "C2000WARE@5.04.00.00"
+ * @v2CliArgs --device "TMS320F280049C" --package "100PZ" --context "system" --product "C2000WARE@5.04.00.00"
+ * @versions {"tool":"1.23.1+4034"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const adc               = scripting.addModule("/driverlib/adc.js", {}, false);
+const adc1              = adc.addInstance();
+const adc2              = adc.addInstance();
+const adc3              = adc.addInstance();
+const asysctl           = scripting.addModule("/driverlib/asysctl.js");
+const cputimer          = scripting.addModule("/driverlib/cputimer.js", {}, false);
+const cputimer1         = cputimer.addInstance();
+const gpio              = scripting.addModule("/driverlib/gpio.js", {}, false);
+const gpio1             = gpio.addInstance();
+const gpio2             = gpio.addInstance();
+const gpio3             = gpio.addInstance();
+const gpio4             = gpio.addInstance();
+const gpio5             = gpio.addInstance();
+const gpio6             = gpio.addInstance();
+const i2c               = scripting.addModule("/driverlib/i2c.js", {}, false);
+const i2c1              = i2c.addInstance();
+const interrupt_nesting = scripting.addModule("/driverlib/interrupt_nesting.js");
+const sci               = scripting.addModule("/driverlib/sci.js", {}, false);
+const sci1              = sci.addInstance();
+const FREERTOS          = scripting.addModule("/kernel/freertos_tool/FREERTOS", {}, false);
+const FREERTOS1         = FREERTOS.addInstance();
+const FPUfastRTS        = scripting.addModule("/libraries/math/FPUfastRTS/FPUfastRTS.js", {}, false);
+const FPUfastRTS1       = FPUfastRTS.addInstance();
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+adc1.enableInterrupt1    = true;
+adc1.registerInterrupts  = ["1"];
+adc1.soc0Name            = "ADCA0";
+adc1.soc1Name            = "ADCA1";
+adc1.soc2Name            = "ADCA2";
+adc1.soc3Name            = "ADCA3";
+adc1.soc4Name            = "ADCA4";
+adc1.soc5Name            = "ADCA5";
+adc1.soc6Name            = "ADCA6";
+adc1.soc6Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc1.soc5Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc1.$name               = "myADCA";
+adc1.soc1SampleWindow    = 40;
+adc1.soc2SampleWindow    = 40;
+adc1.soc3SampleWindow    = 40;
+adc1.soc4SampleWindow    = 40;
+adc1.soc5SampleWindow    = 40;
+adc1.soc6SampleWindow    = 40;
+adc1.interruptPulseMode  = "ADC_PULSE_END_OF_CONV";
+adc1.enabledInts         = ["ADC_INT_NUMBER1"];
+adc1.soc0SampleWindow    = 80;
+adc1.soc2Trigger         = "ADC_TRIGGER_EPWM1_SOCB";
+adc1.soc4Channel         = "ADC_CH_ADCIN1";
+adc1.soc6Channel         = "ADC_CH_ADCIN8";
+adc1.soc7Channel         = "ADC_CH_ADCIN3";
+adc1.soc8Channel         = "ADC_CH_ADCIN5";
+adc1.soc7Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc1.soc8Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc1.soc9Channel         = "ADC_CH_ADCIN1";
+adc1.soc9Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc1.soc9SampleWindow    = 40;
+adc1.soc8SampleWindow    = 40;
+adc1.soc7SampleWindow    = 40;
+adc1.adcClockPrescaler   = "ADC_CLK_DIV_2_0";
+adc1.soc0Channel         = "ADC_CH_ADCIN8";
+adc1.enabledSOCs         = ["ADC_SOC_NUMBER0","ADC_SOC_NUMBER1","ADC_SOC_NUMBER2","ADC_SOC_NUMBER3","ADC_SOC_NUMBER4"];
+adc1.socHighPriorityMode = "ADC_PRI_THRU_SOC4_HIPRI";
+adc1.interrupt1SOCSource = "ADC_SOC_NUMBER4";
+adc1.soc2Channel         = "ADC_CH_ADCIN6";
+adc1.soc3Channel         = "ADC_CH_ADCIN3";
+adc1.useInterrupts       = false;
+
+adc2.useInterrupts       = false;
+adc2.adcBase             = "ADCC_BASE";
+adc2.$name               = "myADCC";
+adc2.soc0Name            = "ADCC0";
+adc2.soc1Name            = "ADCC1";
+adc2.soc2Name            = "ADCC2";
+adc2.soc3Name            = "ADCC3";
+adc2.soc4Name            = "ADCC4";
+adc2.soc5Name            = "ADCC5";
+adc2.soc5Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc2.soc6Name            = "ADCC6";
+adc2.soc6Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc2.soc1SampleWindow    = 40;
+adc2.soc2SampleWindow    = 40;
+adc2.soc3SampleWindow    = 40;
+adc2.soc4SampleWindow    = 40;
+adc2.soc5SampleWindow    = 40;
+adc2.soc6SampleWindow    = 40;
+adc2.soc0SampleWindow    = 80;
+adc2.soc5Channel         = "ADC_CH_ADCIN4";
+adc2.soc0Channel         = "ADC_CH_ADCIN5";
+adc2.soc6Channel         = "ADC_CH_ADCIN2";
+adc2.soc7Channel         = "ADC_CH_ADCIN1";
+adc2.soc7Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc2.soc7SampleWindow    = 40;
+adc2.adcClockPrescaler   = "ADC_CLK_DIV_2_0";
+adc2.socHighPriorityMode = "ADC_PRI_THRU_SOC4_HIPRI";
+adc2.enabledSOCs         = ["ADC_SOC_NUMBER0","ADC_SOC_NUMBER1","ADC_SOC_NUMBER2","ADC_SOC_NUMBER3","ADC_SOC_NUMBER4"];
+adc2.soc1Channel         = "ADC_CH_ADCIN3";
+adc2.soc2Channel         = "ADC_CH_ADCIN4";
+adc2.soc3Channel         = "ADC_CH_ADCIN2";
+adc2.enabledInts         = ["ADC_INT_NUMBER1"];
+adc2.enableInterrupt1    = true;
+adc2.interrupt1SOCSource = "ADC_SOC_NUMBER4";
+adc2.interruptPulseMode  = "ADC_PULSE_END_OF_CONV";
+
+adc3.soc0Name            = "ADCB0";
+adc3.soc1Name            = "ADCB1";
+adc3.soc2Name            = "ADCB2";
+adc3.soc3Name            = "ADCB3";
+adc3.soc4Name            = "ADCB4";
+adc3.soc5Name            = "ADCB5";
+adc3.soc6Name            = "ADCB6";
+adc3.useInterrupts       = false;
+adc3.adcBase             = "ADCB_BASE";
+adc3.$name               = "myADCB";
+adc3.soc1SampleWindow    = 40;
+adc3.soc2SampleWindow    = 40;
+adc3.soc3SampleWindow    = 40;
+adc3.soc4SampleWindow    = 40;
+adc3.soc5Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc3.soc5SampleWindow    = 40;
+adc3.soc6SampleWindow    = 40;
+adc3.soc6Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc3.soc0SampleWindow    = 80;
+adc3.soc0Channel         = "ADC_CH_ADCIN4";
+adc3.soc5Channel         = "ADC_CH_ADCIN4";
+adc3.soc6Channel         = "ADC_CH_ADCIN1";
+adc3.soc7Channel         = "ADC_CH_ADCIN3";
+adc3.soc7Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc3.soc8Channel         = "ADC_CH_ADCIN8";
+adc3.soc8Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc3.soc9Channel         = "ADC_CH_ADCIN2";
+adc3.soc9Trigger         = "ADC_TRIGGER_EPWM1_SOCA";
+adc3.soc9SampleWindow    = 40;
+adc3.soc8SampleWindow    = 40;
+adc3.soc7SampleWindow    = 40;
+adc3.adcClockPrescaler   = "ADC_CLK_DIV_2_0";
+adc3.socHighPriorityMode = "ADC_PRI_THRU_SOC4_HIPRI";
+adc3.enabledSOCs         = ["ADC_SOC_NUMBER0","ADC_SOC_NUMBER1","ADC_SOC_NUMBER2","ADC_SOC_NUMBER3","ADC_SOC_NUMBER4"];
+adc3.soc2Channel         = "ADC_CH_ADCIN6";
+adc3.soc3Channel         = "ADC_CH_ADCIN2";
+adc3.soc4Channel         = "ADC_CH_ADCIN3";
+adc3.interruptPulseMode  = "ADC_PULSE_END_OF_CONV";
+adc3.enabledInts         = ["ADC_INT_NUMBER1"];
+adc3.enableInterrupt1    = true;
+adc3.interrupt1SOCSource = "ADC_SOC_NUMBER4";
+
+asysctl.analogReferenceVoltage = "1P65";
+
+const multiplier2         = system.clockTree["PLL_IMULT"];
+multiplier2.multiplyValue = 10;
+
+const mux2       = system.clockTree["OSCCLKSRCSEL"];
+mux2.inputSelect = "X1_XTAL";
+
+cputimer1.$name                    = "myCPUTIMER0";
+cputimer1.startTimer               = true;
+cputimer1.enableInterrupt          = true;
+cputimer1.registerInterrupts       = true;
+cputimer1.timerPeriod              = 9999;
+cputimer1.timerInt.enableInterrupt = true;
+
+gpio1.padConfig         = "PULLUP";
+gpio1.writeInitialValue = true;
+gpio1.initialValue      = 1;
+gpio1.direction         = "GPIO_DIR_MODE_OUT";
+gpio1.$name             = "LED_RED";
+gpio1.gpioPin.$assign   = "GPIO23_VSW";
+
+gpio2.padConfig       = "PULLUP";
+gpio2.direction       = "GPIO_DIR_MODE_OUT";
+gpio2.$name           = "LED_GREEN";
+gpio2.gpioPin.$assign = "GPIO34";
+
+gpio3.writeInitialValue = true;
+gpio3.direction         = "GPIO_DIR_MODE_OUT";
+gpio3.$name             = "RLY";
+gpio3.gpioPin.$assign   = "GPIO7";
+
+gpio4.writeInitialValue = true;
+gpio4.direction         = "GPIO_DIR_MODE_OUT";
+gpio4.$name             = "I2C_A0";
+gpio4.gpioPin.$assign   = "GPIO4";
+
+gpio5.writeInitialValue = true;
+gpio5.direction         = "GPIO_DIR_MODE_OUT";
+gpio5.$name             = "I2C_A1";
+gpio5.gpioPin.$assign   = "GPIO2";
+
+gpio6.writeInitialValue = true;
+gpio6.direction         = "GPIO_DIR_MODE_OUT";
+gpio6.$name             = "I2C_A2";
+gpio6.initialValue      = 1;
+gpio6.gpioPin.$assign   = "GPIO0";
+
+i2c1.$name                  = "myI2C0";
+i2c1.duty                   = "I2C_DUTYCYCLE_50";
+i2c1.bitCount               = "I2C_BITCOUNT_8";
+i2c1.useInterrupts          = false;
+i2c1.emulationMode          = "I2C_EMULATION_FREE_RUN";
+i2c1.targetAddress          = 0x39;
+i2c1.bitRate                = 100000;
+i2c1.i2c.$assign            = "I2CA";
+i2c1.i2c.i2c_sdaPin.$assign = "GPIO26";
+i2c1.i2c.i2c_sclPin.$assign = "GPIO27";
+
+interrupt_nesting.IntPri_Global_1          = 1;
+interrupt_nesting.IntPri_Global_14         = 5;
+interrupt_nesting.IntPri_Global_9          = 2;
+interrupt_nesting.IntPri_Group_INT_ADCA1   = 1;
+interrupt_nesting.IntPri_Group_INT_SCIA_RX = 1;
+interrupt_nesting.IntPri_Group_INT_SCIB_RX = 2;
+interrupt_nesting.traceEnable              = false;
+
+sci1.$name                      = "mySCI0";
+sci1.registerInterrupts         = true;
+sci1.rxFifo                     = "SCI_FIFO_RX1";
+sci1.enabledFIFOInterrupts      = ["SCI_INT_RXFF"];
+sci1.selectRegisteredInterrupts = ["registerRxInt","registerTxInt"];
+sci1.baudRates                  = 1000000;
+sci1.sci.$assign                = "SCIA";
+sci1.sci.sci_rxPin.$assign      = "GPIO28";
+sci1.sci.sci_txPin.$assign      = "GPIO29";
+sci1.rxQual.$name               = "myGPIOQUAL0";
+sci1.txQual.$name               = "myGPIOQUAL1";
+sci1.sciRXInt.enableInterrupt   = true;
+
+FREERTOS1.$name                              = "myFREERTOS0";
+FREERTOS1.USE_RECURSIVE_MUTEXES              = true;
+FREERTOS1.USE_COUNTING_SEMAPHORES            = true;
+FREERTOS1.USE_MUTEXES                        = true;
+FREERTOS1.vTaskPrioritySet                   = true;
+FREERTOS1.uxTaskPriorityGet                  = true;
+FREERTOS1.vTaskDelete                        = true;
+FREERTOS1.xTaskGetSchedulerState             = true;
+FREERTOS1.xTaskAbortDelay                    = true;
+FREERTOS1.xTaskResumeFromISR                 = true;
+FREERTOS1.MINIMAL_STACK_SIZE                 = 1024;
+FREERTOS1.TOTAL_HEAP_SIZE                    = 4096;
+FREERTOS1.MAX_TASK_NAME_LEN                  = 20;
+FREERTOS1.tasks.create(3);
+FREERTOS1.tasks[0].taskPointer               = "daly_pack";
+FREERTOS1.tasks[0].$name                     = "dalypack";
+FREERTOS1.tasks[0].taskPriority              = 10;
+FREERTOS1.tasks[0].taskStackSize             = 512;
+FREERTOS1.tasks[1].$name                     = "sendcharge";
+FREERTOS1.tasks[1].taskPointer               = "send_charge";
+FREERTOS1.tasks[1].taskPriority              = 1;
+FREERTOS1.tasks[1].taskStackSize             = 512;
+FREERTOS1.tasks[2].taskPointer               = "recive_cmd";
+FREERTOS1.tasks[2].$name                     = "recivecmd";
+FREERTOS1.tasks[2].taskPriority              = 5;
+FREERTOS1.tasks[2].taskStackSize             = 256;
+FREERTOS1.semaphores.create(2);
+FREERTOS1.semaphores[0].$name                = "mySemaphore0";
+FREERTOS1.semaphores[1].$name                = "mySemaphore1";
+FREERTOS1.tickTimer.timerInt.enableInterrupt = true;
+
+FPUfastRTS1.$name = "myFFR0";

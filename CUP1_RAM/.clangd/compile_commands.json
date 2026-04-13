@@ -1,0 +1,222 @@
+[
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/APP/src/htrb_control.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/APP/src/main.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/APP/src/sci_cmd.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/APP/src/sci_fifo.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/APP/src/sys.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg/board.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg/c2000_freertos.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg/c2000ware_libraries.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg/sw_prioritized_defaultisr.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/device/device.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\"",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/device/f28004x_codestartbranch.asm"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/adc.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/asysctl.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/can.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/cla.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/clapromcrc.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/clb.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/cmpss.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/cputimer.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/dac.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/dcc.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/dcsm.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/dma.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/ecap.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/epwm.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/eqep.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/erad.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/flash.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/fsi.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/gpio.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/hrcap.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/hrpwm.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/i2c.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/interrupt.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/lin.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/memcfg.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/pga.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/pmbus.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/sci.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/sdfm.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/spi.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/sysctl.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/version.c"
+   },
+   {
+      "directory" : "C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM",
+      "command"   : "clang++ -I\"/driverlib/f28004x/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/APP/inc\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/device\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib\" -I\"C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/inc\" -I\"C:/ti/ccs2011/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include\" -D_DEBUG -I\"C:/Workspace/TDDB_Controlcore49_V1.0/CUP1_RAM/syscfg\" -xc",
+      "file"      : "C:/Workspace/TDDB_Controlcore49_V1.0/driverlib/xbar.c"
+   }
+]

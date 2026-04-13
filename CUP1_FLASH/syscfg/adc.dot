@@ -1,0 +1,171 @@
+digraph {
+    graph [fontname = "helvetica"];
+    node  [fontname = "helvetica"];
+    edge  [fontname = "helvetica"];
+    graph [mclimit=50 nodesep=0.5 rankdir=LR ranksep=1.25]
+
+    node [shape = circle style=filled];
+
+        adca_SOC5 [label="ADCA SOC5" fillcolor="#FFA0A0" pos="0.000,5.324!"]
+        adca_SOC6 [label="ADCA SOC6" fillcolor="#FFA0A0" pos="2.878,4.479!"]
+        adca_SOC7 [label="ADCA SOC7" fillcolor="#FFA0A0" pos="4.843,2.212!"]
+        adca_SOC8 [label="ADCA SOC8" fillcolor="#FFA0A0" pos="5.270,-0.758!"]
+        adca_SOC9 [label="ADCA SOC9" fillcolor="#FFA0A0" pos="4.024,-3.487!"]
+        adca_SOC10 [label="ADCA SOC10" fillcolor="#FFA0A0" pos="1.500,-5.109!"]
+        adca_SOC11 [label="ADCA SOC11" fillcolor="#FFA0A0" pos="-1.500,-5.109!"]
+        adca_SOC12 [label="ADCA SOC12" fillcolor="#FFA0A0" pos="-4.024,-3.487!"]
+        adca_SOC13 [label="ADCA SOC13" fillcolor="#FFA0A0" pos="-5.270,-0.758!"]
+        adca_SOC14 [label="ADCA SOC14" fillcolor="#FFA0A0" pos="-4.843,2.212!"]
+        adca_SOC15 [label="ADCA SOC15" fillcolor="#FFA0A0" pos="-2.878,4.479!"]
+        adca_SOC0 [fillcolor="#FFA0A0" pos="18.000, 5.324!"]
+        adca_SOC1 [fillcolor="#FFA0A0" pos="18.000, 2.324!"]
+        adca_SOC2 [fillcolor="#FFA0A0" pos="18.000, -0.676!"]
+        adca_SOC3 [fillcolor="#FFA0A0" pos="18.000, -3.676!"]
+        adca_SOC4 [fillcolor="#FFA0A0" pos="18.000, -6.676!"]
+        adca_SOC5 -> adca_SOC6
+        adca_SOC6 -> adca_SOC7
+        adca_SOC7 -> adca_SOC8
+        adca_SOC8 -> adca_SOC9
+        adca_SOC9 -> adca_SOC10
+        adca_SOC10 -> adca_SOC11
+        adca_SOC11 -> adca_SOC12
+        adca_SOC12 -> adca_SOC13
+        adca_SOC13 -> adca_SOC14
+        adca_SOC14 -> adca_SOC15
+        adca_SOC15 -> adca_SOC5
+        adcc_SOC5 [label="ADCC SOC5" fillcolor="#A0FFA0" pos="0.000,-45.676!"]
+        adcc_SOC6 [label="ADCC SOC6" fillcolor="#A0FFA0" pos="2.878,-46.521!"]
+        adcc_SOC7 [label="ADCC SOC7" fillcolor="#A0FFA0" pos="4.843,-48.788!"]
+        adcc_SOC8 [label="ADCC SOC8" fillcolor="#A0FFA0" pos="5.270,-51.758!"]
+        adcc_SOC9 [label="ADCC SOC9" fillcolor="#A0FFA0" pos="4.024,-54.487!"]
+        adcc_SOC10 [label="ADCC SOC10" fillcolor="#A0FFA0" pos="1.500,-56.109!"]
+        adcc_SOC11 [label="ADCC SOC11" fillcolor="#A0FFA0" pos="-1.500,-56.109!"]
+        adcc_SOC12 [label="ADCC SOC12" fillcolor="#A0FFA0" pos="-4.024,-54.487!"]
+        adcc_SOC13 [label="ADCC SOC13" fillcolor="#A0FFA0" pos="-5.270,-51.758!"]
+        adcc_SOC14 [label="ADCC SOC14" fillcolor="#A0FFA0" pos="-4.843,-48.788!"]
+        adcc_SOC15 [label="ADCC SOC15" fillcolor="#A0FFA0" pos="-2.878,-46.521!"]
+        adcc_SOC0 [fillcolor="#A0FFA0" pos="18.000, -45.676!"]
+        adcc_SOC1 [fillcolor="#A0FFA0" pos="18.000, -48.676!"]
+        adcc_SOC2 [fillcolor="#A0FFA0" pos="18.000, -51.676!"]
+        adcc_SOC3 [fillcolor="#A0FFA0" pos="18.000, -54.676!"]
+        adcc_SOC4 [fillcolor="#A0FFA0" pos="18.000, -57.676!"]
+        adcc_SOC5 -> adcc_SOC6
+        adcc_SOC6 -> adcc_SOC7
+        adcc_SOC7 -> adcc_SOC8
+        adcc_SOC8 -> adcc_SOC9
+        adcc_SOC9 -> adcc_SOC10
+        adcc_SOC10 -> adcc_SOC11
+        adcc_SOC11 -> adcc_SOC12
+        adcc_SOC12 -> adcc_SOC13
+        adcc_SOC13 -> adcc_SOC14
+        adcc_SOC14 -> adcc_SOC15
+        adcc_SOC15 -> adcc_SOC5
+        adcb_SOC5 [label="ADCB SOC5" fillcolor="#A0A0FF" pos="0.000,-96.676!"]
+        adcb_SOC6 [label="ADCB SOC6" fillcolor="#A0A0FF" pos="2.878,-97.521!"]
+        adcb_SOC7 [label="ADCB SOC7" fillcolor="#A0A0FF" pos="4.843,-99.788!"]
+        adcb_SOC8 [label="ADCB SOC8" fillcolor="#A0A0FF" pos="5.270,-102.758!"]
+        adcb_SOC9 [label="ADCB SOC9" fillcolor="#A0A0FF" pos="4.024,-105.487!"]
+        adcb_SOC10 [label="ADCB SOC10" fillcolor="#A0A0FF" pos="1.500,-107.109!"]
+        adcb_SOC11 [label="ADCB SOC11" fillcolor="#A0A0FF" pos="-1.500,-107.109!"]
+        adcb_SOC12 [label="ADCB SOC12" fillcolor="#A0A0FF" pos="-4.024,-105.487!"]
+        adcb_SOC13 [label="ADCB SOC13" fillcolor="#A0A0FF" pos="-5.270,-102.758!"]
+        adcb_SOC14 [label="ADCB SOC14" fillcolor="#A0A0FF" pos="-4.843,-99.788!"]
+        adcb_SOC15 [label="ADCB SOC15" fillcolor="#A0A0FF" pos="-2.878,-97.521!"]
+        adcb_SOC0 [fillcolor="#A0A0FF" pos="18.000, -96.676!"]
+        adcb_SOC1 [fillcolor="#A0A0FF" pos="18.000, -99.676!"]
+        adcb_SOC2 [fillcolor="#A0A0FF" pos="18.000, -102.676!"]
+        adcb_SOC3 [fillcolor="#A0A0FF" pos="18.000, -105.676!"]
+        adcb_SOC4 [fillcolor="#A0A0FF" pos="18.000, -108.676!"]
+        adcb_SOC5 -> adcb_SOC6
+        adcb_SOC6 -> adcb_SOC7
+        adcb_SOC7 -> adcb_SOC8
+        adcb_SOC8 -> adcb_SOC9
+        adcb_SOC9 -> adcb_SOC10
+        adcb_SOC10 -> adcb_SOC11
+        adcb_SOC11 -> adcb_SOC12
+        adcb_SOC12 -> adcb_SOC13
+        adcb_SOC13 -> adcb_SOC14
+        adcb_SOC14 -> adcb_SOC15
+        adcb_SOC15 -> adcb_SOC5
+    node [shape=rect style=filled];
+        ADC_TRIGGER_SW_ONLY[label="Software only" fillcolor="yellow"  fontsize="40" color="white" pos="24.000,-3.000!"]
+          
+        adca_ADC_TRIGGER_SW_ONLY[label="ADCA"  fontsize="40" fillcolor="white" color="white" pos="24.000,-9.000!"]
+          
+        adca_ADC_TRIGGER_SW_ONLY_soc10[label="soc10 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="11.000" pos="32.500,-9.000!"]
+          
+        adca_ADC_TRIGGER_SW_ONLY_soc11[label="soc11 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="11.000" pos="43.500,-9.000!"]
+          
+        adca_ADC_TRIGGER_SW_ONLY_soc12[label="soc12 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="11.000" pos="54.500,-9.000!"]
+          
+        adca_ADC_TRIGGER_SW_ONLY_soc13[label="soc13 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="11.000" pos="65.500,-9.000!"]
+          
+        adca_ADC_TRIGGER_SW_ONLY_soc14[label="soc14 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="11.000" pos="76.500,-9.000!"]
+          
+        adca_ADC_TRIGGER_SW_ONLY_soc15[label="soc15 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="11.000" pos="87.500,-9.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY[label="ADCC"  fontsize="40" fillcolor="white" color="white" pos="24.000,-12.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY_soc8[label="soc8 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="11.000" pos="32.500,-12.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY_soc9[label="soc9 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="11.000" pos="43.500,-12.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY_soc10[label="soc10 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="11.000" pos="54.500,-12.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY_soc11[label="soc11 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="11.000" pos="65.500,-12.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY_soc12[label="soc12 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="11.000" pos="76.500,-12.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY_soc13[label="soc13 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="11.000" pos="87.500,-12.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY_soc14[label="soc14 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="11.000" pos="98.500,-12.000!"]
+          
+        adcc_ADC_TRIGGER_SW_ONLY_soc15[label="soc15 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="11.000" pos="109.500,-12.000!"]
+          
+        adcb_ADC_TRIGGER_SW_ONLY[label="ADCB"  fontsize="40" fillcolor="white" color="white" pos="24.000,-15.000!"]
+          
+        adcb_ADC_TRIGGER_SW_ONLY_soc10[label="soc10 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="11.000" pos="32.500,-15.000!"]
+          
+        adcb_ADC_TRIGGER_SW_ONLY_soc11[label="soc11 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="11.000" pos="43.500,-15.000!"]
+          
+        adcb_ADC_TRIGGER_SW_ONLY_soc12[label="soc12 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="11.000" pos="54.500,-15.000!"]
+          
+        adcb_ADC_TRIGGER_SW_ONLY_soc13[label="soc13 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="11.000" pos="65.500,-15.000!"]
+          
+        adcb_ADC_TRIGGER_SW_ONLY_soc14[label="soc14 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="11.000" pos="76.500,-15.000!"]
+          
+        adcb_ADC_TRIGGER_SW_ONLY_soc15[label="soc15 (S+H[SYSCLK]: 1, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="11.000" pos="87.500,-15.000!"]
+        ADC_TRIGGER_EPWM1_SOCA[label="ePWM1, ADCSOCA" fillcolor="yellow"  fontsize="40" color="white" pos="24.000,-18.000!"]
+          
+        adca_ADC_TRIGGER_EPWM1_SOCA[label="ADCA"  fontsize="40" fillcolor="white" color="white" pos="24.000,-24.000!"]
+          
+        adca_ADC_TRIGGER_EPWM1_SOCA_soc5[label="soc5 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="30.500" pos="42.250,-24.000!"]
+          
+        adca_ADC_TRIGGER_EPWM1_SOCA_soc6[label="soc6 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="30.500" pos="72.750,-24.000!"]
+          
+        adca_ADC_TRIGGER_EPWM1_SOCA_soc7[label="soc7 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="30.500" pos="103.250,-24.000!"]
+          
+        adca_ADC_TRIGGER_EPWM1_SOCA_soc8[label="soc8 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="30.500" pos="133.750,-24.000!"]
+          
+        adca_ADC_TRIGGER_EPWM1_SOCA_soc9[label="soc9 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#FFA0A0" width="30.500" pos="164.250,-24.000!"]
+          
+        adcc_ADC_TRIGGER_EPWM1_SOCA[label="ADCC"  fontsize="40" fillcolor="white" color="white" pos="24.000,-27.000!"]
+          
+        adcc_ADC_TRIGGER_EPWM1_SOCA_soc5[label="soc5 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="30.500" pos="42.250,-27.000!"]
+          
+        adcc_ADC_TRIGGER_EPWM1_SOCA_soc6[label="soc6 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="30.500" pos="72.750,-27.000!"]
+          
+        adcc_ADC_TRIGGER_EPWM1_SOCA_soc7[label="soc7 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#A0FFA0" width="30.500" pos="103.250,-27.000!"]
+          
+        adcb_ADC_TRIGGER_EPWM1_SOCA[label="ADCB"  fontsize="40" fillcolor="white" color="white" pos="24.000,-30.000!"]
+          
+        adcb_ADC_TRIGGER_EPWM1_SOCA_soc5[label="soc5 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="30.500" pos="42.250,-30.000!"]
+          
+        adcb_ADC_TRIGGER_EPWM1_SOCA_soc6[label="soc6 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="30.500" pos="72.750,-30.000!"]
+          
+        adcb_ADC_TRIGGER_EPWM1_SOCA_soc7[label="soc7 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="30.500" pos="103.250,-30.000!"]
+          
+        adcb_ADC_TRIGGER_EPWM1_SOCA_soc8[label="soc8 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="30.500" pos="133.750,-30.000!"]
+          
+        adcb_ADC_TRIGGER_EPWM1_SOCA_soc9[label="soc9 (S+H[SYSCLK]: 40, Conv[SYSCLK]: 21)" fillcolor="#A0A0FF" width="30.500" pos="164.250,-30.000!"]
+}

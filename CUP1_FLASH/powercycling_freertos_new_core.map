@@ -1,0 +1,1442 @@
+******************************************************************************
+             TMS320C2000 Linker PC v22.6.0                     
+******************************************************************************
+>> Linked Wed May 15 15:09:39 2024
+
+OUTPUT FILE NAME:   <powercycling_freertos_new_core.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: 0008783e
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+PAGE 0:
+  RAMM0                 000000f6   0000030a  00000000  0000030a  RWIX
+  RAMLS0                00008000   00004000  00001083  00002f7d  RWIX
+  BEGIN                 00080000   00000002  00000002  00000000  RWIX
+  FLASH_BANK0_SEC0      00080002   00000ffe  00000000  00000ffe  RWIX
+  FLASH_BANK0_SEC1      00081000   00002000  0000111b  00000ee5  RWIX
+  FLASH_BANK0_SEC2      00083000   0000d000  00004f04  000080fc  RWIX
+  FLASH_BANK1_SEC0      00090000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC1      00091000   00001000  00000000  00001000  RWIX
+  FLASH_BANK1_SEC2      00092000   0000e000  00000000  0000e000  RWIX
+  RESET                 003fffc0   00000002  00000000  00000002  RWIX
+
+PAGE 1:
+  BOOT_RSVD             00000002   000000f1  00000000  000000f1  RWIX
+  RAMM1                 00000400   000003f8  00000200  000001f8  RWIX
+  ADCARESULT            00000b00   00000018  00000000  00000018  RWIX
+  ADCBRESULT            00000b20   00000018  00000000  00000018  RWIX
+  ADCCRESULT            00000b40   00000018  00000000  00000018  RWIX
+  CPUTIMER0             00000c00   00000008  00000000  00000008  RWIX
+  CPUTIMER1             00000c08   00000008  00000000  00000008  RWIX
+  CPUTIMER2             00000c10   00000008  00000000  00000008  RWIX
+  PIECTRL               00000ce0   0000001a  00000000  0000001a  RWIX
+  PIEVECTTABLE          00000d00   00000200  00000000  00000200  RWIX
+  DMA                   00001000   00000200  00000000  00000200  RWIX
+  CLA1                  00001400   00000080  00000000  00000080  RWIX
+  CLB1LOGICCFG          00003000   00000052  00000000  00000052  RWIX
+  CLB1LOGICCTRL         00003100   00000040  00000000  00000040  RWIX
+  CLB1DATAEXCH          00003200   00000200  00000000  00000200  RWIX
+  CLB2LOGICCFG          00003400   00000052  00000000  00000052  RWIX
+  CLB2LOGICCTRL         00003500   00000040  00000000  00000040  RWIX
+  CLB2DATAEXCH          00003600   00000200  00000000  00000200  RWIX
+  CLB3LOGICCFG          00003800   00000052  00000000  00000052  RWIX
+  CLB3LOGICCTRL         00003900   00000040  00000000  00000040  RWIX
+  CLB3DATAEXCH          00003a00   00000200  00000000  00000200  RWIX
+  CLB4LOGICCFG          00003c00   00000052  00000000  00000052  RWIX
+  CLB4LOGICCTRL         00003d00   00000040  00000000  00000040  RWIX
+  CLB4DATAEXCH          00003e00   00000200  00000000  00000200  RWIX
+  EPWM1                 00004000   00000100  00000000  00000100  RWIX
+  EPWM2                 00004100   00000100  00000000  00000100  RWIX
+  EPWM3                 00004200   00000100  00000000  00000100  RWIX
+  EPWM4                 00004300   00000100  00000000  00000100  RWIX
+  EPWM5                 00004400   00000100  00000000  00000100  RWIX
+  EPWM6                 00004500   00000100  00000000  00000100  RWIX
+  EPWM7                 00004600   00000100  00000000  00000100  RWIX
+  EPWM8                 00004700   00000100  00000000  00000100  RWIX
+  EQEP1                 00005100   00000040  00000000  00000040  RWIX
+  EQEP2                 00005140   00000040  00000000  00000040  RWIX
+  ECAP1                 00005200   0000001e  00000000  0000001e  RWIX
+  ECAP2                 00005240   0000001e  00000000  0000001e  RWIX
+  ECAP3                 00005280   0000001e  00000000  0000001e  RWIX
+  ECAP4                 000052c0   0000001e  00000000  0000001e  RWIX
+  ECAP5                 00005300   0000001e  00000000  0000001e  RWIX
+  ECAP6                 00005340   0000001e  00000000  0000001e  RWIX
+  HRCAP6                00005360   00000020  00000000  00000020  RWIX
+  ECAP7                 00005380   0000001e  00000000  0000001e  RWIX
+  HRCAP7                000053a0   00000020  00000000  00000020  RWIX
+  PGA1                  00005b00   00000010  00000000  00000010  RWIX
+  PGA2                  00005b10   00000010  00000000  00000010  RWIX
+  PGA3                  00005b20   00000010  00000000  00000010  RWIX
+  PGA4                  00005b30   00000010  00000000  00000010  RWIX
+  PGA5                  00005b40   00000010  00000000  00000010  RWIX
+  PGA6                  00005b50   00000010  00000000  00000010  RWIX
+  PGA7                  00005b60   00000010  00000000  00000010  RWIX
+  DACA                  00005c00   00000008  00000000  00000008  RWIX
+  DACB                  00005c10   00000008  00000000  00000008  RWIX
+  CMPSS1                00005c80   00000020  00000000  00000020  RWIX
+  CMPSS2                00005ca0   00000020  00000000  00000020  RWIX
+  CMPSS3                00005cc0   00000020  00000000  00000020  RWIX
+  CMPSS4                00005ce0   00000020  00000000  00000020  RWIX
+  CMPSS5                00005d00   00000020  00000000  00000020  RWIX
+  CMPSS6                00005d20   00000020  00000000  00000020  RWIX
+  CMPSS7                00005d40   00000020  00000000  00000020  RWIX
+  SDFM1                 00005e00   00000070  00000000  00000070  RWIX
+  SPIA                  00006100   00000010  00000000  00000010  RWIX
+  SPIB                  00006110   00000010  00000000  00000010  RWIX
+  CLAPROMCRC0           000061c0   00000020  00000000  00000020  RWIX
+  PMBUSA                00006400   00000020  00000000  00000020  RWIX
+  FSITXA                00006600   00000050  00000000  00000050  RWIX
+  FSIRXA                00006680   00000050  00000000  00000050  RWIX
+  LINA                  00006a00   000000ec  00000000  000000ec  RWIX
+  WD                    00007000   0000002c  00000000  0000002c  RWIX
+  NMIINTRUPT            00007060   00000008  00000000  00000008  RWIX
+  XINT                  00007070   0000000c  00000000  0000000c  RWIX
+  SCIA                  00007200   00000010  00000000  00000010  RWIX
+  SCIB                  00007210   00000010  00000000  00000010  RWIX
+  I2CA                  00007300   00000022  00000000  00000022  RWIX
+  ADCA                  00007400   00000080  00000000  00000080  RWIX
+  ADCB                  00007480   00000080  00000000  00000080  RWIX
+  ADCC                  00007500   00000080  00000000  00000080  RWIX
+  INPUTXBAR             00007900   00000020  00000000  00000020  RWIX
+  XBAR                  00007920   00000020  00000000  00000020  RWIX
+  SYNCSOC               00007940   00000006  00000000  00000006  RWIX
+  DMACLASRCSEL          00007980   0000001a  00000000  0000001a  RWIX
+  EPWMXBAR              00007a00   00000040  00000000  00000040  RWIX
+  CLBXBAR               00007a40   00000040  00000000  00000040  RWIX
+  OUTPUTXBAR            00007a80   00000040  00000000  00000040  RWIX
+  GPIOCTRL              00007c00   00000200  00000000  00000200  RWIX
+  GPIODATA              00007f00   00000040  00000000  00000040  RWIX
+  RAMLS5                0000a800   00001400  000004ff  00000f01  RWIX
+  RAMGS0                0000c000   00002000  00000c80  00001380  RWIX
+  RAMGS1                0000e000   00005ff8  00002164  00003e94  RWIX
+  CANA                  00048000   00000200  00000000  00000200  RWIX
+  CANB                  0004a000   00000200  00000000  00000200  RWIX
+  DEVCFG                0005d000   00000180  00000000  00000180  RWIX
+  CLKCFG                0005d200   00000036  00000000  00000036  RWIX
+  CPUSYS                0005d300   00000082  00000000  00000082  RWIX
+  SYSPERIPHAC           0005d500   00000200  00000000  00000200  RWIX
+  ANALOGSUBSYS          0005d700   00000090  00000000  00000090  RWIX
+  DCC0                  0005e700   0000002c  00000000  0000002c  RWIX
+  ERADGLOBAL            0005e800   00000014  00000000  00000014  RWIX
+  ERADHWBP1             0005e900   00000008  00000000  00000008  RWIX
+  ERADHWBP2             0005e908   00000008  00000000  00000008  RWIX
+  ERADHWBP3             0005e910   00000008  00000000  00000008  RWIX
+  ERADHWBP4             0005e918   00000008  00000000  00000008  RWIX
+  ERADHWBP5             0005e920   00000008  00000000  00000008  RWIX
+  ERADHWBP6             0005e928   00000008  00000000  00000008  RWIX
+  ERADHWBP7             0005e930   00000008  00000000  00000008  RWIX
+  ERADHWBP8             0005e938   00000008  00000000  00000008  RWIX
+  ERADCOUNTER1          0005e980   00000010  00000000  00000010  RWIX
+  ERADCOUNTER2          0005e990   00000010  00000000  00000010  RWIX
+  ERADCOUNTER3          0005e9a0   00000010  00000000  00000010  RWIX
+  ERADCOUNTER4          0005e9b0   00000010  00000000  00000010  RWIX
+  DCSMBANK0Z1           0005f000   00000024  00000000  00000024  RWIX
+  DCSMBANK0Z2           0005f040   00000024  00000000  00000024  RWIX
+  DCSMCOMMON            0005f070   00000010  00000000  00000010  RWIX
+  DCSMBANK1Z1           0005f100   00000024  00000000  00000024  RWIX
+  DCSMBANK1Z2           0005f140   00000024  00000000  00000024  RWIX
+  MEMCFG                0005f400   00000080  00000000  00000080  RWIX
+  ACCESSPROTECTION      0005f4c0   00000040  00000000  00000040  RWIX
+  MEMORYERROR           0005f500   00000040  00000000  00000040  RWIX
+  FLASH0CTRL            0005f800   00000182  00000000  00000182  RWIX
+  FLASH0ECC             0005fb00   00000028  00000000  00000028  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+codestart 
+*          0    00080000    00000002     
+                  00080000    00000002     f28004x_codestartbranch.obj (codestart)
+
+.switch    0    00082084    0000001c     
+                  00082084    0000001c     sci_cmd.obj (.switch:rxCmdList)
+
+.cinit     0    000820a0    0000007c     
+                  000820a0    0000004f     (.cinit..data.load) [load image, compression = lzss]
+                  000820ef    00000006     (.cinit..logport.load) [load image, compression = lzss]
+                  000820f5    00000001     --HOLE-- [fill = 0]
+                  000820f6    00000006     (__TI_handler_table)
+                  000820fc    00000004     (.cinit..bss.load) [load image, compression = zero_init]
+                  00082100    00000004     (.cinit..freertosHeap.load) [load image, compression = zero_init]
+                  00082104    00000004     (.cinit..freertosStaticStack.load) [load image, compression = zero_init]
+                  00082108    00000014     (__TI_cinit_table)
+
+.reset     0    003fffc0    00000000     DSECT
+
+.stack     1    00000400    00000200     UNINITIALIZED
+                  00000400    00000200     --HOLE--
+
+.freertosHeap 
+*          1    0000c000    00000800     UNINITIALIZED
+                  0000c000    00000800     c2000_freertos.obj (.freertosHeap)
+
+.init_array 
+*          0    00081000    00000000     UNINITIALIZED
+
+.bss       1    0000a800    000002bf     UNINITIALIZED
+                  0000a800    00000132     c2000_freertos.obj (.bss)
+                  0000a932    000000a0     tasks.obj (.bss:pxReadyTasksLists)
+                  0000a9d2    0000004a     sci_cmd.obj (.bss:val_adder)
+                  0000aa1c    00000024     powercycling_control_loop.obj (.bss)
+                  0000aa40    00000036     tasks.obj (.bss)
+                  0000aa76    00000028     queue.obj (.bss:xQueueRegistry)
+                  0000aa9e    00000018     sci_fifo.obj (.bss)
+                  0000aab6    00000004     heap_4.obj (.bss)
+                  0000aaba    00000004     sci_cmd.obj (.bss:val_adder_chose)
+                  0000aabe    00000001     main.obj (.bss)
+
+.data      1    0000aac0    00000240     UNINITIALIZED
+                  0000aac0    00000180     sci_fifo.obj (.data)
+                  0000ac40    0000008c     powercycling_control_loop.obj (.data)
+                  0000accc    00000012     tasks.obj (.data)
+                  0000acde    0000000c     heap_4.obj (.data)
+                  0000acea    00000008     c2000_freertos.obj (.data)
+                  0000acf2    00000006     rts2800_fpu32_eabi.lib : exit.c.obj (.data)
+                  0000acf8    00000004     port.obj (.data)
+                  0000acfc    00000002     rts2800_fpu32_eabi.lib : _lock.c.obj (.data:_lock)
+                  0000acfe    00000002                            : _lock.c.obj (.data:_unlock)
+
+.const     0    00087898    0000066f     
+                  00087898    000001c6     board.obj (.const:.string)
+                  00087a5e    000000e2     powercycling_control_loop.obj (.const:.string)
+                  00087b40    000000e0     main.obj (.const:.string)
+                  00087c20    00000097     sci_cmd.obj (.const:.string)
+                  00087cb7    00000001     tasks.obj (.const)
+                  00087cb8    00000061     device.obj (.const:.string)
+                  00087d19    00000001     --HOLE-- [fill = 0]
+                  00087d1a    0000004f     port.obj (.const:.string)
+                  00087d69    00000001     --HOLE-- [fill = 0]
+                  00087d6a    0000004a     sci_fifo.obj (.const:.string)
+                  00087db4    0000002b     flash.obj (.const:.string)
+                  00087ddf    00000001     --HOLE-- [fill = 0]
+                  00087de0    0000002a     sysctl.obj (.const:.string)
+                  00087e0a    00000028     gpio.obj (.const:.string)
+                  00087e32    00000027     dcc.obj (.const:.string)
+                  00087e59    00000001     --HOLE-- [fill = 0]
+                  00087e5a    00000027     sci.obj (.const:.string)
+                  00087e81    00000001     --HOLE-- [fill = 0]
+                  00087e82    00000020     c2000_freertos.obj (.const:.string)
+                  00087ea2    00000019     interrupt.obj (.const:.string)
+                  00087ebb    00000001     --HOLE-- [fill = 0]
+                  00087ebc    00000018     cputimer.obj (.const:.string)
+                  00087ed4    00000013     adc.obj (.const:.string)
+                  00087ee7    00000001     --HOLE-- [fill = 0]
+                  00087ee8    00000012     sci_fifo.obj (.const)
+                  00087efa    00000008     powercycling_control_loop.obj (.const)
+                  00087f02    00000005     tasks.obj (.const:.string)
+
+.TI.ramfunc 
+*          0    00081000    00001083     RUN ADDR = 00008000
+                  00081000    0000063d     sci_fifo.obj (.TI.ramfunc)
+                  0008163d    000005de     powercycling_control_loop.obj (.TI.ramfunc)
+                  00081c1b    0000015a     flash.obj (.TI.ramfunc)
+                  00081d75    00000151     sci_cmd.obj (.TI.ramfunc)
+                  00081ec6    000000e2     main.obj (.TI.ramfunc:retain)
+                  00081fa8    00000067     sogi_control.obj (.TI.ramfunc)
+                  0008200f    0000003c     main.obj (.TI.ramfunc)
+                  0008204b    00000034     pid_control.obj (.TI.ramfunc)
+                  0008207f    00000004     sysctl.obj (.TI.ramfunc)
+
+PieVectTableFile 
+*          0    00000d00    00000000     DSECT
+
+EmuKeyVar 
+*          0    00000d00    00000000     DSECT
+
+EmuBModeVar 
+*          0    00000d00    00000000     DSECT
+
+EmuBootPinsVar 
+*          0    00000d00    00000000     DSECT
+
+FlashCallbackVar 
+*          0    00000d00    00000000     DSECT
+
+FlashScalingVar 
+*          0    00000d00    00000000     DSECT
+
+.text      0    00083000    00004895     
+                  00083000    00000fa0     tasks.obj (.text)
+                  00083fa0    00000e33     board.obj (.text)
+                  00084dd3    000006f4     queue.obj (.text)
+                  000854c7    0000058a     sci_cmd.obj (.text)
+                  00085a51    000004b1     sysctl.obj (.text)
+                  00085f02    00000431     dcc.obj (.text)
+                  00086333    000002de     sci.obj (.text)
+                  00086611    0000028d     gpio.obj (.text)
+                  0008689e    0000020d     device.obj (.text)
+                  00086aab    000001aa     port.obj (.text)
+                  00086c55    0000018c     adc.obj (.text)
+                  00086de1    0000018b     interrupt.obj (.text)
+                  00086f6c    00000181     heap_4.obj (.text)
+                  000870ed    00000170     powercycling_control_loop.obj (.text)
+                  0008725d    00000141     main.obj (.text)
+                  0008739e    00000092     list.obj (.text)
+                  00087430    0000008e     sci_fifo.obj (.text)
+                  000874be    00000088     rts2800_fpu32_eabi.lib : fs_div28.asm.obj (.text)
+                  00087546    00000083     portasm.obj (.text)
+                  000875c9    00000083     rts2800_fpu32_eabi.lib : fd_mpy28.asm.obj (.text)
+                  0008764c    00000072     c2000_freertos.obj (.text)
+                  000876be    0000002e     rts2800_fpu32_eabi.lib : copy_decompress_lzss.c.obj (.text:decompress:lzss)
+                  000876ec    0000002e     pid_control.obj (.text)
+                  0008771a    0000002b     rts2800_fpu32_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit)
+                  00087745    0000002a     cputimer.obj (.text)
+                  0008776f    0000002a     rts2800_fpu32_eabi.lib : fd_cmp28.asm.obj (.text)
+                  00087799    00000029                            : exit.c.obj (.text)
+                  000877c2    00000023                            : fd_tofsfpu32.asm.obj (.text)
+                  000877e5    00000020     flash.obj (.text)
+                  00087805    0000001d     rts2800_fpu32_eabi.lib : memcpy.c.obj (.text)
+                  00087822    0000001c                            : fs_tofdfpu32.asm.obj (.text)
+                  0008783e    00000017                            : boot28.asm.obj (.text)
+                  00087855    0000000c                            : args_main.c.obj (.text)
+                  00087861    0000000b                            : u_div28.asm.obj (.text)
+                  0008786c    00000009                            : _lock.c.obj (.text)
+                  00087875    00000008                            : copy_decompress_none.c.obj (.text:decompress:none)
+                  0008787d    00000008     f28004x_codestartbranch.obj (.text)
+                  00087885    00000007     rts2800_fpu32_eabi.lib : memset.c.obj (.text)
+                  0008788c    00000006                            : copy_zero_init.c.obj (.text:decompress:ZI)
+                  00087892    00000002                            : pre_init.c.obj (.text)
+                  00087894    00000001                            : startup.c.obj (.text)
+
+.freertosStaticStack 
+*          1    0000c800    00000480     UNINITIALIZED
+                  0000c800    00000480     c2000_freertos.obj (.freertosStaticStack)
+
+.logport   1    0000e000    00002164     UNINITIALIZED
+                  0000e000    00002164     sci_fifo.obj (.logport)
+
+MODULE SUMMARY
+
+       Module                          code    ro data   rw data
+       ------                          ----    -------   -------
+    .\
+       tasks.obj                       4000    6         232    
+       queue.obj                       1780    0         40     
+       port.obj                        426     79        4      
+       heap_4.obj                      385     0         16     
+       list.obj                        146     0         0      
+       portasm.obj                     131     0         0      
+    +--+-------------------------------+-------+---------+---------+
+       Total:                          6868    85        292    
+                                                                
+    .\APP\src\
+       sci_fifo.obj                    3336    92        8956   
+       powercycling_control_loop.obj   3372    234       176    
+       sci_cmd.obj                     2092    179       78     
+       main.obj                        893     224       1      
+       sogi_control.obj                206     0         0      
+       pid_control.obj                 150     0         0      
+    +--+-------------------------------+-------+---------+---------+
+       Total:                          10049   729       9211   
+                                                                
+    .\device\
+       device.obj                      525     97        0      
+       f28004x_codestartbranch.obj     10      0         0      
+    +--+-------------------------------+-------+---------+---------+
+       Total:                          535     97        0      
+                                                                
+    .\driverlib\
+       sysctl.obj                      1209    42        0      
+       dcc.obj                         1073    39        0      
+       sci.obj                         734     39        0      
+       flash.obj                       724     43        0      
+       gpio.obj                        653     40        0      
+       interrupt.obj                   395     25        0      
+       adc.obj                         396     19        0      
+       cputimer.obj                    42      24        0      
+    +--+-------------------------------+-------+---------+---------+
+       Total:                          5226    271       0      
+                                                                
+    .\syscfg\
+       board.obj                       3635    454       0      
+       c2000_freertos.obj              114     32        3514   
+    +--+-------------------------------+-------+---------+---------+
+       Total:                          3749    486       3514   
+                                                                
+    C:\ti\ccs1220\ccs\tools\compiler\ti-cgt-c2000_22.6.0.LTS\lib\rts2800_fpu32_eabi.lib
+       fs_div28.asm.obj                136     0         0      
+       fd_mpy28.asm.obj                131     0         0      
+       exit.c.obj                      41      0         6      
+       copy_decompress_lzss.c.obj      46      0         0      
+       autoinit.c.obj                  43      0         0      
+       fd_cmp28.asm.obj                42      0         0      
+       fd_tofsfpu32.asm.obj            35      0         0      
+       memcpy.c.obj                    29      0         0      
+       fs_tofdfpu32.asm.obj            28      0         0      
+       boot28.asm.obj                  23      0         0      
+       _lock.c.obj                     9       0         4      
+       args_main.c.obj                 12      0         0      
+       u_div28.asm.obj                 11      0         0      
+       copy_decompress_none.c.obj      8       0         0      
+       memset.c.obj                    7       0         0      
+       copy_zero_init.c.obj            6       0         0      
+       pre_init.c.obj                  2       0         0      
+       startup.c.obj                   1       0         0      
+    +--+-------------------------------+-------+---------+---------+
+       Total:                          610     0         10     
+                                                                
+       Stack:                          0       0         512    
+       Linker Generated:               0       123       0      
+    +--+-------------------------------+-------+---------+---------+
+       Grand Total:                    27037   1791      13539  
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 00082108 records: 5, size/record: 4, table size: 20
+	.data: load addr=000820a0, load size=0000004f bytes, run addr=0000aac0, run size=00000240 bytes, compression=lzss
+	.logport: load addr=000820ef, load size=00000006 bytes, run addr=0000e000, run size=00002164 bytes, compression=lzss
+	.bss: load addr=000820fc, load size=00000004 bytes, run addr=0000a800, run size=000002bf bytes, compression=zero_init
+	.freertosHeap: load addr=00082100, load size=00000004 bytes, run addr=0000c000, run size=00000800 bytes, compression=zero_init
+	.freertosStaticStack: load addr=00082104, load size=00000004 bytes, run addr=0000c800, run size=00000480 bytes, compression=zero_init
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 000820f6 records: 3, size/record: 2, table size: 6
+	index: 0, handler: __TI_zero_init
+	index: 1, handler: __TI_decompress_lzss
+	index: 2, handler: __TI_decompress_none
+
+
+GLOBAL DATA SYMBOLS: SORTED BY DATA PAGE
+
+address     data page           name
+--------    ----------------    ----
+00000400      10 (00000400)     __stack
+
+0000a800     2a0 (0000a800)     mySemaphore0Buffer
+
+0000a840     2a1 (0000a840)     idleTaskTCBBuffer
+
+0000a880     2a2 (0000a880)     dalypackTCBBuffer
+
+0000a8c0     2a3 (0000a8c0)     sendchargeTCBBuffer
+
+0000a900     2a4 (0000a900)     recivecmdTCBBuffer
+
+0000a9d2     2a7 (0000a9c0)     val_adder
+
+0000aa1c     2a8 (0000aa00)     ac_i_erro
+0000aa1e     2a8 (0000aa00)     cmp_d1
+0000aa20     2a8 (0000aa00)     cmp_d2
+0000aa22     2a8 (0000aa00)     theta_del
+0000aa24     2a8 (0000aa00)     I_Sense_R1
+0000aa26     2a8 (0000aa00)     I_Sense_R2
+0000aa28     2a8 (0000aa00)     I_Sense_loss
+0000aa2a     2a8 (0000aa00)     I_Sense_total
+0000aa2c     2a8 (0000aa00)     I_Sense_H1
+0000aa2e     2a8 (0000aa00)     I_Sense_H2
+0000aa30     2a8 (0000aa00)     VDC
+0000aa32     2a8 (0000aa00)     VCap
+0000aa34     2a8 (0000aa00)     I_DRV_ToTal
+0000aa36     2a8 (0000aa00)     I_DRV_1
+0000aa38     2a8 (0000aa00)     I_DRV_2
+0000aa3a     2a8 (0000aa00)     I_DRV_3
+0000aa3c     2a8 (0000aa00)     I_DRV_4
+0000aa3e     2a8 (0000aa00)     Vref_IV5
+
+0000aa76     2a9 (0000aa40)     xQueueRegistry
+
+0000aa9e     2aa (0000aa80)     logchose
+0000aaa6     2aa (0000aa80)     dalychose
+0000aaba     2aa (0000aa80)     val_adder_chose
+0000aabe     2aa (0000aa80)     rxHigherPriorityTaskWoken
+
+0000aac0     2ab (0000aac0)     data_lock
+0000aac1     2ab (0000aac0)     temp_need_state
+0000aac2     2ab (0000aac0)     dalydata_lock
+0000aac3     2ab (0000aac0)     logdata_lock
+0000aac4     2ab (0000aac0)     tempdata_lock
+0000aac5     2ab (0000aac0)     task_lock
+0000aac6     2ab (0000aac0)     lock_trig
+0000aac7     2ab (0000aac0)     lock_daly_cache
+0000aac8     2ab (0000aac0)     lock_daly_task
+0000aaca     2ab (0000aac0)     daly_moniter
+0000aacc     2ab (0000aac0)     daly_map
+0000aacf     2ab (0000aac0)     temp_map
+0000aad2     2ab (0000aac0)     RxPacketCtrl
+0000aad8     2ab (0000aac0)     TempRxPacketCtrl
+0000aade     2ab (0000aac0)     log_map
+0000aae6     2ab (0000aac0)     delaylog
+0000aaee     2ab (0000aac0)     delaydaly
+
+0000ab00     2ac (0000ab00)     TempRxPacketBuffer
+
+0000ab40     2ad (0000ab40)     range
+
+0000abc0     2af (0000abc0)     RxPacketBuffer
+
+0000ac40     2b1 (0000ac40)     is_open
+0000ac41     2b1 (0000ac40)     mode_chose
+0000ac42     2b1 (0000ac40)     i_choise
+0000ac43     2b1 (0000ac40)     control_flag
+0000ac44     2b1 (0000ac40)     control_auto
+0000ac45     2b1 (0000ac40)     control_max
+0000ac46     2b1 (0000ac40)     control_turn
+0000ac47     2b1 (0000ac40)     control_send_val
+0000ac48     2b1 (0000ac40)     over_flag
+0000ac49     2b1 (0000ac40)     driver_status
+0000ac4a     2b1 (0000ac40)     pwm_status
+0000ac4b     2b1 (0000ac40)     message_effect_status
+0000ac4c     2b1 (0000ac40)     machine_status
+0000ac4d     2b1 (0000ac40)     iic_recive_time
+0000ac4e     2b1 (0000ac40)     Kp_pid
+0000ac50     2b1 (0000ac40)     Ki_pid
+0000ac52     2b1 (0000ac40)     Kp_pr
+0000ac54     2b1 (0000ac40)     Ki_pr
+0000ac56     2b1 (0000ac40)     Ki_pr_h3
+0000ac58     2b1 (0000ac40)     Ki_pr_h5
+0000ac5a     2b1 (0000ac40)     I_ref
+0000ac5c     2b1 (0000ac40)     AC_I_ref
+0000ac5e     2b1 (0000ac40)     CONTROL_TS
+0000ac60     2b1 (0000ac40)     cmp_1
+0000ac62     2b1 (0000ac40)     cmp_2
+0000ac64     2b1 (0000ac40)     cmp_b_hr
+0000ac66     2b1 (0000ac40)     tbprd
+0000ac68     2b1 (0000ac40)     phs
+0000ac6a     2b1 (0000ac40)     phs_hr
+0000ac6c     2b1 (0000ac40)     pwm_deadband
+0000ac6e     2b1 (0000ac40)     pi_cmp2_out
+0000ac70     2b1 (0000ac40)     theta
+0000ac72     2b1 (0000ac40)     ac_freq
+0000ac74     2b1 (0000ac40)     ac_mag
+0000ac76     2b1 (0000ac40)     ac_delt
+0000ac78     2b1 (0000ac40)     ac_dict
+0000ac7a     2b1 (0000ac40)     a_i_r1
+0000ac7c     2b1 (0000ac40)     b_i_r1
+0000ac7e     2b1 (0000ac40)     a_i_r2
+
+0000ac80     2b2 (0000ac80)     b_i_r2
+0000ac82     2b2 (0000ac80)     a_i_h1
+0000ac84     2b2 (0000ac80)     b_i_h1
+0000ac86     2b2 (0000ac80)     a_i_h2
+0000ac88     2b2 (0000ac80)     b_i_h2
+0000ac8a     2b2 (0000ac80)     a_vcap
+0000ac8c     2b2 (0000ac80)     b_vcap
+0000ac8e     2b2 (0000ac80)     a_vdc
+0000ac90     2b2 (0000ac80)     b_vdc
+0000ac92     2b2 (0000ac80)     a_i_loss
+0000ac94     2b2 (0000ac80)     b_i_loss
+0000ac96     2b2 (0000ac80)     a_i_total
+0000ac98     2b2 (0000ac80)     b_i_total
+0000ac9a     2b2 (0000ac80)     i_pi
+0000aca4     2b2 (0000ac80)     i_sogi
+0000acb0     2b2 (0000ac80)     i_sogi_h3
+
+0000acc0     2b3 (0000acc0)     i_sogi_h5
+0000acd4     2b3 (0000acc0)     pxCurrentTCB
+0000acea     2b3 (0000acc0)     dalypackHandle
+0000acec     2b3 (0000acc0)     sendchargeHandle
+0000acee     2b3 (0000acc0)     recivecmdHandle
+0000acf0     2b3 (0000acc0)     mySemaphore0Handle
+0000acf2     2b3 (0000acc0)     __TI_enable_exit_profile_output
+0000acf4     2b3 (0000acc0)     __TI_cleanup_ptr
+0000acf6     2b3 (0000acc0)     __TI_dtors_ptr
+0000acf8     2b3 (0000acc0)     bYield
+0000acf9     2b3 (0000acc0)     bPreemptive
+0000acfa     2b3 (0000acc0)     ulCriticalNesting
+0000acfc     2b3 (0000acc0)     _lock
+0000acfe     2b3 (0000acc0)     _unlock
+
+0000c000     300 (0000c000)     ucHeap
+
+0000c800     320 (0000c800)     sendchargeStackBuffer
+
+0000c880     322 (0000c880)     dalypackStackBuffer
+
+0000c980     326 (0000c980)     recivecmdStackBuffer
+
+0000ca80     32a (0000ca80)     idleTaskStack
+
+0000e000     380 (0000e000)     delaytemp
+0000e010     380 (0000e000)     temp_buf
+0000e030     380 (0000e000)     daly_buf
+
+0000e224     388 (0000e200)     log_buf
+
+00087cb7    21f2 (00087c80)     uxTopUsedPriority
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+page  address   name                               
+----  -------   ----                               
+1     0000ac5c  AC_I_ref                           
+0     00084815  ADC_init                           
+0     00086cb8  ADC_setINLTrim                     
+0     00086d07  ADC_setOffsetTrim                  
+0     00086d5d  ADC_setOffsetTrimAll               
+0     00086d85  ADC_setPPBTripLimits               
+0     00086c6c  ADC_setVREF                        
+0     00084a5f  ASYSCTL_init                       
+0     00084792  Board_init                         
+0     00087799  C$$EXIT                            
+1     0000ac5e  CONTROL_TS                         
+0     00084a65  CPUTIMER_init                      
+0     0008775c  CPUTimer_setEmulationMode          
+0     000857eb  Cmp2Set                            
+0     000856a4  CmpSet                             
+0     0008574a  CmpandPhsSet                       
+0     000086bf  ControlLoop                        
+0     00008985  ControlLoopAcClose                 
+0     00008a40  ControlLoopAcOpen                  
+0     00008850  ControlLoopDcClose                 
+0     0000890d  ControlLoopDcOpen                  
+0     00086280  DCC_continuousMonitor              
+0     000860eb  DCC_getRevisionNumber              
+0     000861d3  DCC_measureClockFrequency          
+0     00086108  DCC_verifyClockFrequency           
+0     00084cf3  DRV_init                           
+0     00086981  Device_enableAllPeripherals        
+0     0008691f  Device_init                        
+0     00086a61  Device_initGPIO                    
+0     00086a71  Device_verifyXTAL                  
+0     00084a66  EPWM_init                          
+0     00008cfb  Flash_initModule                   
+0     00008d3f  Flash_powerDown                    
+0     00008d5a  Flash_wakeFromLPM                  
+0     000876b3  FreeRTOS_init                      
+0     00086676  GPIO_getDirectionMode              
+0     0008671c  GPIO_getPadConfig                  
+0     00086791  GPIO_getQualificationMode          
+0     00084cbb  GPIO_init                          
+0     0008682d  GPIO_setAnalogMode                 
+0     000867f6  GPIO_setControllerCore             
+0     00086645  GPIO_setDirectionMode              
+0     00086696  GPIO_setInterruptPin               
+0     000866ca  GPIO_setPadConfig                  
+0     00086867  GPIO_setPinConfig                  
+0     0008675a  GPIO_setQualificationMode          
+0     000867bd  GPIO_setQualificationPeriod        
+0     00085823  GateDriverDisable                  
+0     00085817  GateDriverEnable                   
+0     00084d3e  INTERRUPT_init                     
+0     00008ec6  INT_myADCA_1_ISR                   
+0     00008f07  INT_mySCI0_RX_ISR                  
+0     00008f70  INT_mySCI0_TX_ISR                  
+1     0000aa36  I_DRV_1                            
+1     0000aa38  I_DRV_2                            
+1     0000aa3a  I_DRV_3                            
+1     0000aa3c  I_DRV_4                            
+1     0000aa34  I_DRV_ToTal                        
+1     0000aa2c  I_Sense_H1                         
+1     0000aa2e  I_Sense_H2                         
+1     0000aa24  I_Sense_R1                         
+1     0000aa26  I_Sense_R2                         
+1     0000aa28  I_Sense_loss                       
+1     0000aa2a  I_Sense_total                      
+1     0000ac5a  I_ref                              
+0     00087470  Init_bigLogbuf                     
+0     0008748e  Init_dalybuf                       
+0     000871da  Init_powercycling                  
+0     000874b2  Init_tempbuf                       
+0     000855f8  Init_val_adder                     
+0     000874b8  Initrangtaske                      
+0     00086f1e  Interrupt_disable                  
+0     00086ee7  Interrupt_enable                   
+0     00086e8c  Interrupt_initModule               
+0     00086ec9  Interrupt_initVectorTable          
+1     0000ac50  Ki_pid                             
+1     0000ac54  Ki_pr                              
+1     0000ac56  Ki_pr_h3                           
+1     0000ac58  Ki_pr_h5                           
+1     0000ac4e  Kp_pid                             
+1     0000ac52  Kp_pr                              
+0     00084cdf  LED_GREEN_init                     
+0     00084cc6  LED_RED_init                       
+0     00085716  PhsSet                             
+0     000847a7  PinMux_init                        
+0     0000881b  Protection_process                 
+0     00085809  PwmDisable                         
+0     000857fa  PwmEnable                          
+0     00082083  RamfuncsLoadEnd                    
+abs   00001083  RamfuncsLoadSize                   
+0     00081000  RamfuncsLoadStart                  
+0     00009083  RamfuncsRunEnd                     
+abs   00001083  RamfuncsRunSize                    
+0     00008000  RamfuncsRunStart                   
+1     0000abc0  RxPacketBuffer                     
+1     0000aad2  RxPacketCtrl                       
+0     00086594  SCI_clearInterruptStatus           
+0     00086501  SCI_disableInterrupt               
+0     000864bd  SCI_enableInterrupt                
+0     00086546  SCI_getInterruptStatus             
+0     00084d6f  SCI_init                           
+0     00086482  SCI_readCharArray                  
+0     000865d9  SCI_setBaud                        
+0     00086405  SCI_setConfig                      
+0     000865fe  SCI_setWakeFlag                    
+0     00086443  SCI_writeCharArray                 
+0     00084db5  SYNC_init                          
+0     00008000  SciRxPacketReset                   
+0     0000907f  SysCtl_delay                       
+0     00085c26  SysCtl_getClock                    
+0     00085dea  SysCtl_getDeviceParametric         
+0     00085dd0  SysCtl_getLowSpeedClock            
+0     00085e45  SysCtl_isPLLValid                  
+0     00085d87  SysCtl_selectOscSource             
+0     00085d49  SysCtl_selectXTAL                  
+0     00085d6d  SysCtl_selectXTALSingleEnded       
+0     00085c84  SysCtl_setClock                    
+0     00084d0c  TIME_WATCH1_init                   
+0     00084d25  TIME_WATCH2_init                   
+1     0000ab00  TempRxPacketBuffer                 
+1     0000aad8  TempRxPacketCtrl                   
+0     00008005  TempSciRxPacketReset               
+0     0000800a  TemprxDecodeWord                   
+0     0008582e  Trigger                            
+0     000086db  UpdateAdValue                      
+0     00008a91  UpdateControlLoop                  
+1     0000aa32  VCap                               
+1     0000aa30  VDC                                
+1     0000aa3e  Vref_IV5                           
+0     00082108  __TI_CINIT_Base                    
+0     0008211c  __TI_CINIT_Limit                   
+0     0008211c  __TI_CINIT_Warm                    
+0     000820f6  __TI_Handler_Table_Base            
+0     000820fc  __TI_Handler_Table_Limit           
+1     00000600  __TI_STACK_END                     
+abs   00000200  __TI_STACK_SIZE                    
+0     0008771a  __TI_auto_init_nobinit_nopinit     
+1     0000acf4  __TI_cleanup_ptr                   
+0     000876be  __TI_decompress_lzss               
+0     00087875  __TI_decompress_none               
+1     0000acf6  __TI_dtors_ptr                     
+1     0000acf2  __TI_enable_exit_profile_output    
+abs   ffffffff  __TI_pprof_out_hndl                
+abs   ffffffff  __TI_prof_data_size                
+abs   ffffffff  __TI_prof_data_start               
+0     0008788c  __TI_zero_init                     
+0     0008776f  __c28xabi_cmpd                     
+0     000874be  __c28xabi_divf                     
+0     00087861  __c28xabi_divu                     
+0     000877c2  __c28xabi_dtof                     
+0     00087822  __c28xabi_ftod                     
+0     00087866  __c28xabi_modu                     
+0     000875c9  __c28xabi_mpyd                     
+n/a   UNDEFED   __c_args__                         
+0     00086aa4  __error__                          
+1     00000400  __stack                            
+0     00087855  _args_main                         
+0     0008783e  _c_int00                           
+1     0000acfc  _lock                              
+0     00087874  _nop                               
+0     00087870  _register_lock                     
+0     0008786c  _register_unlock                   
+0     00087894  _system_post_cinit                 
+0     00087892  _system_pre_init                   
+1     0000acfe  _unlock                            
+1     0000ac82  a_i_h1                             
+1     0000ac86  a_i_h2                             
+1     0000ac92  a_i_loss                           
+1     0000ac7a  a_i_r1                             
+1     0000ac7e  a_i_r2                             
+1     0000ac96  a_i_total                          
+1     0000ac8a  a_vcap                             
+1     0000ac8e  a_vdc                              
+0     00087799  abort                              
+1     0000ac76  ac_delt                            
+1     0000ac78  ac_dict                            
+1     0000ac72  ac_freq                            
+1     0000aa1c  ac_i_erro                          
+1     0000ac74  ac_mag                             
+0     0000811f  adddalynumber                      
+0     000080b9  addlognumber                       
+0     0000817b  addtaske                           
+0     00008145  addtempnumber                      
+1     0000acf9  bPreemptive                        
+1     0000acf8  bYield                             
+1     0000ac84  b_i_h1                             
+1     0000ac88  b_i_h2                             
+1     0000ac94  b_i_loss                           
+1     0000ac7c  b_i_r1                             
+1     0000ac80  b_i_r2                             
+1     0000ac98  b_i_total                          
+1     0000ac8c  b_vcap                             
+1     0000ac90  b_vdc                              
+0     0000865f  change_ad_i_h1                     
+0     0000866f  change_ad_i_h2                     
+0     0000869f  change_ad_i_loss                   
+0     0000863d  change_ad_i_r1                     
+0     0000864d  change_ad_i_r2                     
+0     000086af  change_ad_i_total                  
+0     0000868f  change_ad_vcap                     
+0     0000867f  change_ad_vdc                      
+0     0008585d  change_channel_new                 
+0     000871f4  change_control_ts                  
+0     00085990  change_i_choise                    
+0     00085902  change_i_h1_ab                     
+0     0008590e  change_i_h2_ab                     
+0     00085932  change_i_loss_ab                   
+0     000858ea  change_i_r1_ab                     
+0     000858f6  change_i_r2_ab                     
+0     0008593e  change_i_total_ab                  
+0     000858db  change_is_open_close               
+0     000858e3  change_is_open_open                
+0     000859de  change_to_ac                       
+0     000859d2  change_to_dc                       
+0     00085926  change_vcap_ab                     
+0     0008591a  change_vdc_ab                      
+0     00008244  checksumCalc                       
+0     0008599c  clear_product_flag                 
+0     000859bd  close_auto_test_control            
+1     0000ac60  cmp_1                              
+1     0000ac62  cmp_2                              
+1     0000ac64  cmp_b_hr                           
+1     0000aa1e  cmp_d1                             
+1     0000aa20  cmp_d2                             
+0     00080000  code_start                         
+1     0000ac44  control_auto                       
+0     000858d7  control_auto_end                   
+0     000858d0  control_auto_start                 
+1     0000ac43  control_flag                       
+1     0000ac45  control_max                        
+1     0000ac47  control_send_val                   
+1     0000ac46  control_turn                       
+1     0000e030  daly_buf                           
+0     0000855d  daly_chose                         
+0     000084d3  daly_data_pack                     
+1     0000aacc  daly_map                           
+1     0000aaca  daly_moniter                       
+0     0000900f  daly_pack                          
+0     00085833  dalychannel_chose                  
+0     00085848  dalychannelfloat_chose             
+1     0000aaa6  dalychose                          
+1     0000aac2  dalydata_lock                      
+1     0000acea  dalypackHandle                     
+1     0000c880  dalypackStackBuffer                
+1     0000a880  dalypackTCBBuffer                  
+0     0008764c  dalypack_init                      
+1     0000aac0  data_lock                          
+1     0000aaee  delaydaly                          
+1     0000aae6  delaylog                           
+1     0000e000  delaytemp                          
+1     0000ac49  driver_status                      
+0     000831fa  eTaskGetState                      
+0     000083dc  executaske                         
+0     0008779b  exit                               
+0     00087546  getSTF                             
+1     0000ac42  i_choise                           
+1     0000ac9a  i_pi                               
+1     0000aca4  i_sogi                             
+1     0000acb0  i_sogi_h3                          
+1     0000acc0  i_sogi_h5                          
+1     0000ca80  idleTaskStack                      
+1     0000a840  idleTaskTCBBuffer                  
+1     0000ac4d  iic_recive_time                    
+1     0000ac40  is_open                            
+1     0000aac7  lock_daly_cache                    
+1     0000aac8  lock_daly_task                     
+1     0000aac6  lock_trig                          
+1     0000e224  log_buf                            
+1     0000aade  log_map                            
+1     0000aa9e  logchose                           
+1     0000aac3  logdata_lock                       
+1     0000ac4c  machine_status                     
+0     00087379  main                               
+0     00087805  memcpy                             
+0     00087885  memset                             
+1     0000ac4b  message_effect_status              
+1     0000ac41  mode_chose                         
+0     0008481c  myADCA_init                        
+0     00084998  myADCB_init                        
+0     000848f1  myADCC_init                        
+0     00084d72  mySCI0_init                        
+1     0000a800  mySemaphore0Buffer                 
+1     0000acf0  mySemaphore0Handle                 
+0     00087693  mySemaphore0_init                  
+0     000859a0  open_auto_test_control             
+1     0000ac48  over_flag                          
+0     0008547f  pcQueueGetName                     
+0     000835c7  pcTaskGetName                      
+1     0000ac68  phs                                
+1     0000ac6a  phs_hr                             
+1     0000ac6e  pi_cmp2_out                        
+0     0008770d  pid_change_kp_ki                   
+0     0000904b  pid_control                        
+0     000876ec  pid_init                           
+0     00087705  pid_set_inte                       
+0     0008754a  portRESTORE_FIRST_CONTEXT          
+0     00087555  portTICK_ISR                       
+0     00086f6c  pvPortMalloc                       
+0     00083bce  pvTaskIncrementMutexHeldCount      
+1     0000ac6c  pwm_deadband                       
+1     0000ac4a  pwm_status                         
+1     0000acd4  pxCurrentTCB                       
+0     00086b50  pxPortInitialiseStack              
+1     0000ab40  range                              
+0     0000902b  recive_cmd                         
+1     0000acee  recivecmdHandle                    
+1     0000c980  recivecmdStackBuffer               
+1     0000a900  recivecmdTCBBuffer                 
+0     0008767b  recivecmd_init                     
+0     000871e9  reset_all_statue                   
+0     00087227  reset_control_inte                 
+0     00008d75  rxCmdList                          
+0     00008062  rxDecodeWord                       
+1     0000aabe  rxHigherPriorityTaskWoken          
+0     00009020  send_charge                        
+1     0000acec  sendchargeHandle                   
+1     0000c800  sendchargeStackBuffer              
+1     0000a8c0  sendchargeTCBBuffer                
+0     00087664  sendcharge_init                    
+0     00008272  sendmessage                        
+0     00008256  sendu16                            
+0     00085a0f  set_ac_freq                        
+0     000859ff  set_ac_mag_delt_dict_control       
+0     00085a17  set_deadband                       
+0     00085962  set_i_ref                          
+0     000859ca  set_i_ref_no_trigger               
+0     0008594a  set_kpki_control                   
+0     000859eb  set_prkpki_control                 
+0     00085881  set_trriger_control                
+0     00008fc0  sogi_control                       
+0     00008fa8  sogi_reset                         
+1     0000aac5  task_lock                          
+1     0000ac66  tbprd                              
+1     0000e010  temp_buf                           
+1     0000aacf  temp_map                           
+1     0000aac1  temp_need_state                    
+1     0000aac4  tempdata_lock                      
+1     0000ac70  theta                              
+1     0000aa22  theta_del                          
+0     0000848a  trigger_data_pack                  
+1     0000c000  ucHeap                             
+1     0000acfa  ulCriticalNesting                  
+0     00083bd8  ulTaskGenericNotifyTake            
+0     00083f22  ulTaskGenericNotifyValueClear      
+0     00008b45  updateAllcmp                       
+0     00008ae6  updateCmp2                         
+0     0008740c  uxListRemove                       
+0     000852d2  uxQueueMessagesWaiting             
+0     000852f5  uxQueueMessagesWaitingFromISR      
+0     000852e0  uxQueueSpacesAvailable             
+0     000835c3  uxTaskGetNumberOfTasks             
+0     0008324f  uxTaskPriorityGet                  
+0     00083264  uxTaskPriorityGetFromISR           
+0     00083bb9  uxTaskResetEventItemValue          
+0     00087cb7  uxTopUsedPriority                  
+0     000876a2  vApplicationGetIdleTaskMemory      
+0     0008739e  vListInitialise                    
+0     000873b6  vListInitialiseItem                
+0     000873da  vListInsert                        
+0     000873bf  vListInsertEnd                     
+0     00086c04  vPortEndScheduler                  
+0     00086c13  vPortEnterCritical                 
+0     00086c1b  vPortExitCritical                  
+0     00086ff2  vPortFree                          
+0     000870a4  vPortGetHeapStats                  
+0     00087027  vPortInitialiseBlocks              
+0     00086c25  vPortSetupTimerInterrupt           
+0     00085443  vQueueAddToRegistry                
+0     00085300  vQueueDelete                       
+0     000854a1  vQueueUnregisterQueue              
+0     000831e1  vTaskDelay                         
+0     0008315f  vTaskDelete                        
+0     000834cb  vTaskEndScheduler                  
+0     00083e4b  vTaskGenericNotifyGiveFromISR      
+0     0008391d  vTaskInternalSetTimeOutState       
+0     0008396b  vTaskMissedYield                   
+0     0008377e  vTaskPlaceOnEventList              
+0     0008378e  vTaskPlaceOnUnorderedEventList     
+0     00083b25  vTaskPriorityDisinheritAfterTimeout
+0     00083276  vTaskPrioritySet                   
+0     0008387c  vTaskRemoveFromUnorderedEventList  
+0     000833c0  vTaskResume                        
+0     0008390c  vTaskSetTimeOutState               
+0     00083491  vTaskStartScheduler                
+0     00083331  vTaskSuspend                       
+0     000834d3  vTaskSuspendAll                    
+0     00083746  vTaskSwitchContext                 
+1     0000a9d2  val_adder                          
+1     0000aaba  val_adder_chose                    
+0     0008701f  xPortGetFreeHeapSize               
+0     00087023  xPortGetMinimumEverFreeHeapSize    
+0     00086c05  xPortStartScheduler                
+0     00084f51  xQueueCreateCountingSemaphore      
+0     00084f34  xQueueCreateCountingSemaphoreStatic
+0     00084edc  xQueueCreateMutex                  
+0     00084eec  xQueueCreateMutexStatic            
+0     00084e74  xQueueGenericCreate                
+0     00084e4f  xQueueGenericCreateStatic          
+0     00084dd3  xQueueGenericReset                 
+0     00084f69  xQueueGenericSend                  
+0     00085007  xQueueGenericSendFromISR           
+0     00085050  xQueueGiveFromISR                  
+0     00084eff  xQueueGiveMutexRecursive           
+0     00085405  xQueueIsQueueEmptyFromISR          
+0     0008542d  xQueueIsQueueFullFromISR           
+0     000851e1  xQueuePeek                         
+0     000852b8  xQueuePeekFromISR                  
+0     00085093  xQueueReceive                      
+0     00085277  xQueueReceiveFromISR               
+1     0000aa76  xQueueRegistry                     
+0     0008512a  xQueueSemaphoreTake                
+0     00084f1a  xQueueTakeMutexRecursive           
+0     000835e2  xTaskAbortDelay                    
+0     000835d6  xTaskCatchUpTicks                  
+0     0008392a  xTaskCheckForTimeOut               
+0     0008302e  xTaskCreate                        
+0     00083000  xTaskCreateStatic                  
+0     000831a8  xTaskDelayUntil                    
+0     00083c89  xTaskGenericNotify                 
+0     00083d5a  xTaskGenericNotifyFromISR          
+0     00083efe  xTaskGenericNotifyStateClear       
+0     00083c28  xTaskGenericNotifyWait             
+0     000839f9  xTaskGetCurrentTaskHandle          
+0     00083a01  xTaskGetSchedulerState             
+0     000835af  xTaskGetTickCount                  
+0     000835bb  xTaskGetTickCountFromISR           
+0     00083656  xTaskIncrementTick                 
+0     00083ab2  xTaskPriorityDisinherit            
+0     00083a12  xTaskPriorityInherit               
+0     000837bd  xTaskRemoveFromEventList           
+0     000834d7  xTaskResumeAll                     
+0     00083429  xTaskResumeFromISR                 
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+page  address   name                               
+----  -------   ----                               
+0     00008000  RamfuncsRunStart                   
+0     00008000  SciRxPacketReset                   
+0     00008005  TempSciRxPacketReset               
+0     0000800a  TemprxDecodeWord                   
+0     00008062  rxDecodeWord                       
+0     000080b9  addlognumber                       
+0     0000811f  adddalynumber                      
+0     00008145  addtempnumber                      
+0     0000817b  addtaske                           
+0     00008244  checksumCalc                       
+0     00008256  sendu16                            
+0     00008272  sendmessage                        
+0     000083dc  executaske                         
+0     0000848a  trigger_data_pack                  
+0     000084d3  daly_data_pack                     
+0     0000855d  daly_chose                         
+0     0000863d  change_ad_i_r1                     
+0     0000864d  change_ad_i_r2                     
+0     0000865f  change_ad_i_h1                     
+0     0000866f  change_ad_i_h2                     
+0     0000867f  change_ad_vdc                      
+0     0000868f  change_ad_vcap                     
+0     0000869f  change_ad_i_loss                   
+0     000086af  change_ad_i_total                  
+0     000086bf  ControlLoop                        
+0     000086db  UpdateAdValue                      
+0     0000881b  Protection_process                 
+0     00008850  ControlLoopDcClose                 
+0     0000890d  ControlLoopDcOpen                  
+0     00008985  ControlLoopAcClose                 
+0     00008a40  ControlLoopAcOpen                  
+0     00008a91  UpdateControlLoop                  
+0     00008ae6  updateCmp2                         
+0     00008b45  updateAllcmp                       
+0     00008cfb  Flash_initModule                   
+0     00008d3f  Flash_powerDown                    
+0     00008d5a  Flash_wakeFromLPM                  
+0     00008d75  rxCmdList                          
+0     00008ec6  INT_myADCA_1_ISR                   
+0     00008f07  INT_mySCI0_RX_ISR                  
+0     00008f70  INT_mySCI0_TX_ISR                  
+0     00008fa8  sogi_reset                         
+0     00008fc0  sogi_control                       
+0     0000900f  daly_pack                          
+0     00009020  send_charge                        
+0     0000902b  recive_cmd                         
+0     0000904b  pid_control                        
+0     0000907f  SysCtl_delay                       
+0     00009083  RamfuncsRunEnd                     
+0     00080000  code_start                         
+0     00081000  RamfuncsLoadStart                  
+0     00082083  RamfuncsLoadEnd                    
+0     000820f6  __TI_Handler_Table_Base            
+0     000820fc  __TI_Handler_Table_Limit           
+0     00082108  __TI_CINIT_Base                    
+0     0008211c  __TI_CINIT_Limit                   
+0     0008211c  __TI_CINIT_Warm                    
+0     00083000  xTaskCreateStatic                  
+0     0008302e  xTaskCreate                        
+0     0008315f  vTaskDelete                        
+0     000831a8  xTaskDelayUntil                    
+0     000831e1  vTaskDelay                         
+0     000831fa  eTaskGetState                      
+0     0008324f  uxTaskPriorityGet                  
+0     00083264  uxTaskPriorityGetFromISR           
+0     00083276  vTaskPrioritySet                   
+0     00083331  vTaskSuspend                       
+0     000833c0  vTaskResume                        
+0     00083429  xTaskResumeFromISR                 
+0     00083491  vTaskStartScheduler                
+0     000834cb  vTaskEndScheduler                  
+0     000834d3  vTaskSuspendAll                    
+0     000834d7  xTaskResumeAll                     
+0     000835af  xTaskGetTickCount                  
+0     000835bb  xTaskGetTickCountFromISR           
+0     000835c3  uxTaskGetNumberOfTasks             
+0     000835c7  pcTaskGetName                      
+0     000835d6  xTaskCatchUpTicks                  
+0     000835e2  xTaskAbortDelay                    
+0     00083656  xTaskIncrementTick                 
+0     00083746  vTaskSwitchContext                 
+0     0008377e  vTaskPlaceOnEventList              
+0     0008378e  vTaskPlaceOnUnorderedEventList     
+0     000837bd  xTaskRemoveFromEventList           
+0     0008387c  vTaskRemoveFromUnorderedEventList  
+0     0008390c  vTaskSetTimeOutState               
+0     0008391d  vTaskInternalSetTimeOutState       
+0     0008392a  xTaskCheckForTimeOut               
+0     0008396b  vTaskMissedYield                   
+0     000839f9  xTaskGetCurrentTaskHandle          
+0     00083a01  xTaskGetSchedulerState             
+0     00083a12  xTaskPriorityInherit               
+0     00083ab2  xTaskPriorityDisinherit            
+0     00083b25  vTaskPriorityDisinheritAfterTimeout
+0     00083bb9  uxTaskResetEventItemValue          
+0     00083bce  pvTaskIncrementMutexHeldCount      
+0     00083bd8  ulTaskGenericNotifyTake            
+0     00083c28  xTaskGenericNotifyWait             
+0     00083c89  xTaskGenericNotify                 
+0     00083d5a  xTaskGenericNotifyFromISR          
+0     00083e4b  vTaskGenericNotifyGiveFromISR      
+0     00083efe  xTaskGenericNotifyStateClear       
+0     00083f22  ulTaskGenericNotifyValueClear      
+0     00084792  Board_init                         
+0     000847a7  PinMux_init                        
+0     00084815  ADC_init                           
+0     0008481c  myADCA_init                        
+0     000848f1  myADCC_init                        
+0     00084998  myADCB_init                        
+0     00084a5f  ASYSCTL_init                       
+0     00084a65  CPUTIMER_init                      
+0     00084a66  EPWM_init                          
+0     00084cbb  GPIO_init                          
+0     00084cc6  LED_RED_init                       
+0     00084cdf  LED_GREEN_init                     
+0     00084cf3  DRV_init                           
+0     00084d0c  TIME_WATCH1_init                   
+0     00084d25  TIME_WATCH2_init                   
+0     00084d3e  INTERRUPT_init                     
+0     00084d6f  SCI_init                           
+0     00084d72  mySCI0_init                        
+0     00084db5  SYNC_init                          
+0     00084dd3  xQueueGenericReset                 
+0     00084e4f  xQueueGenericCreateStatic          
+0     00084e74  xQueueGenericCreate                
+0     00084edc  xQueueCreateMutex                  
+0     00084eec  xQueueCreateMutexStatic            
+0     00084eff  xQueueGiveMutexRecursive           
+0     00084f1a  xQueueTakeMutexRecursive           
+0     00084f34  xQueueCreateCountingSemaphoreStatic
+0     00084f51  xQueueCreateCountingSemaphore      
+0     00084f69  xQueueGenericSend                  
+0     00085007  xQueueGenericSendFromISR           
+0     00085050  xQueueGiveFromISR                  
+0     00085093  xQueueReceive                      
+0     0008512a  xQueueSemaphoreTake                
+0     000851e1  xQueuePeek                         
+0     00085277  xQueueReceiveFromISR               
+0     000852b8  xQueuePeekFromISR                  
+0     000852d2  uxQueueMessagesWaiting             
+0     000852e0  uxQueueSpacesAvailable             
+0     000852f5  uxQueueMessagesWaitingFromISR      
+0     00085300  vQueueDelete                       
+0     00085405  xQueueIsQueueEmptyFromISR          
+0     0008542d  xQueueIsQueueFullFromISR           
+0     00085443  vQueueAddToRegistry                
+0     0008547f  pcQueueGetName                     
+0     000854a1  vQueueUnregisterQueue              
+0     000855f8  Init_val_adder                     
+0     000856a4  CmpSet                             
+0     00085716  PhsSet                             
+0     0008574a  CmpandPhsSet                       
+0     000857eb  Cmp2Set                            
+0     000857fa  PwmEnable                          
+0     00085809  PwmDisable                         
+0     00085817  GateDriverEnable                   
+0     00085823  GateDriverDisable                  
+0     0008582e  Trigger                            
+0     00085833  dalychannel_chose                  
+0     00085848  dalychannelfloat_chose             
+0     0008585d  change_channel_new                 
+0     00085881  set_trriger_control                
+0     000858d0  control_auto_start                 
+0     000858d7  control_auto_end                   
+0     000858db  change_is_open_close               
+0     000858e3  change_is_open_open                
+0     000858ea  change_i_r1_ab                     
+0     000858f6  change_i_r2_ab                     
+0     00085902  change_i_h1_ab                     
+0     0008590e  change_i_h2_ab                     
+0     0008591a  change_vdc_ab                      
+0     00085926  change_vcap_ab                     
+0     00085932  change_i_loss_ab                   
+0     0008593e  change_i_total_ab                  
+0     0008594a  set_kpki_control                   
+0     00085962  set_i_ref                          
+0     00085990  change_i_choise                    
+0     0008599c  clear_product_flag                 
+0     000859a0  open_auto_test_control             
+0     000859bd  close_auto_test_control            
+0     000859ca  set_i_ref_no_trigger               
+0     000859d2  change_to_dc                       
+0     000859de  change_to_ac                       
+0     000859eb  set_prkpki_control                 
+0     000859ff  set_ac_mag_delt_dict_control       
+0     00085a0f  set_ac_freq                        
+0     00085a17  set_deadband                       
+0     00085c26  SysCtl_getClock                    
+0     00085c84  SysCtl_setClock                    
+0     00085d49  SysCtl_selectXTAL                  
+0     00085d6d  SysCtl_selectXTALSingleEnded       
+0     00085d87  SysCtl_selectOscSource             
+0     00085dd0  SysCtl_getLowSpeedClock            
+0     00085dea  SysCtl_getDeviceParametric         
+0     00085e45  SysCtl_isPLLValid                  
+0     000860eb  DCC_getRevisionNumber              
+0     00086108  DCC_verifyClockFrequency           
+0     000861d3  DCC_measureClockFrequency          
+0     00086280  DCC_continuousMonitor              
+0     00086405  SCI_setConfig                      
+0     00086443  SCI_writeCharArray                 
+0     00086482  SCI_readCharArray                  
+0     000864bd  SCI_enableInterrupt                
+0     00086501  SCI_disableInterrupt               
+0     00086546  SCI_getInterruptStatus             
+0     00086594  SCI_clearInterruptStatus           
+0     000865d9  SCI_setBaud                        
+0     000865fe  SCI_setWakeFlag                    
+0     00086645  GPIO_setDirectionMode              
+0     00086676  GPIO_getDirectionMode              
+0     00086696  GPIO_setInterruptPin               
+0     000866ca  GPIO_setPadConfig                  
+0     0008671c  GPIO_getPadConfig                  
+0     0008675a  GPIO_setQualificationMode          
+0     00086791  GPIO_getQualificationMode          
+0     000867bd  GPIO_setQualificationPeriod        
+0     000867f6  GPIO_setControllerCore             
+0     0008682d  GPIO_setAnalogMode                 
+0     00086867  GPIO_setPinConfig                  
+0     0008691f  Device_init                        
+0     00086981  Device_enableAllPeripherals        
+0     00086a61  Device_initGPIO                    
+0     00086a71  Device_verifyXTAL                  
+0     00086aa4  __error__                          
+0     00086b50  pxPortInitialiseStack              
+0     00086c04  vPortEndScheduler                  
+0     00086c05  xPortStartScheduler                
+0     00086c13  vPortEnterCritical                 
+0     00086c1b  vPortExitCritical                  
+0     00086c25  vPortSetupTimerInterrupt           
+0     00086c6c  ADC_setVREF                        
+0     00086cb8  ADC_setINLTrim                     
+0     00086d07  ADC_setOffsetTrim                  
+0     00086d5d  ADC_setOffsetTrimAll               
+0     00086d85  ADC_setPPBTripLimits               
+0     00086e8c  Interrupt_initModule               
+0     00086ec9  Interrupt_initVectorTable          
+0     00086ee7  Interrupt_enable                   
+0     00086f1e  Interrupt_disable                  
+0     00086f6c  pvPortMalloc                       
+0     00086ff2  vPortFree                          
+0     0008701f  xPortGetFreeHeapSize               
+0     00087023  xPortGetMinimumEverFreeHeapSize    
+0     00087027  vPortInitialiseBlocks              
+0     000870a4  vPortGetHeapStats                  
+0     000871da  Init_powercycling                  
+0     000871e9  reset_all_statue                   
+0     000871f4  change_control_ts                  
+0     00087227  reset_control_inte                 
+0     00087379  main                               
+0     0008739e  vListInitialise                    
+0     000873b6  vListInitialiseItem                
+0     000873bf  vListInsertEnd                     
+0     000873da  vListInsert                        
+0     0008740c  uxListRemove                       
+0     00087470  Init_bigLogbuf                     
+0     0008748e  Init_dalybuf                       
+0     000874b2  Init_tempbuf                       
+0     000874b8  Initrangtaske                      
+0     000874be  __c28xabi_divf                     
+0     00087546  getSTF                             
+0     0008754a  portRESTORE_FIRST_CONTEXT          
+0     00087555  portTICK_ISR                       
+0     000875c9  __c28xabi_mpyd                     
+0     0008764c  dalypack_init                      
+0     00087664  sendcharge_init                    
+0     0008767b  recivecmd_init                     
+0     00087693  mySemaphore0_init                  
+0     000876a2  vApplicationGetIdleTaskMemory      
+0     000876b3  FreeRTOS_init                      
+0     000876be  __TI_decompress_lzss               
+0     000876ec  pid_init                           
+0     00087705  pid_set_inte                       
+0     0008770d  pid_change_kp_ki                   
+0     0008771a  __TI_auto_init_nobinit_nopinit     
+0     0008775c  CPUTimer_setEmulationMode          
+0     0008776f  __c28xabi_cmpd                     
+0     00087799  C$$EXIT                            
+0     00087799  abort                              
+0     0008779b  exit                               
+0     000877c2  __c28xabi_dtof                     
+0     00087805  memcpy                             
+0     00087822  __c28xabi_ftod                     
+0     0008783e  _c_int00                           
+0     00087855  _args_main                         
+0     00087861  __c28xabi_divu                     
+0     00087866  __c28xabi_modu                     
+0     0008786c  _register_unlock                   
+0     00087870  _register_lock                     
+0     00087874  _nop                               
+0     00087875  __TI_decompress_none               
+0     00087885  memset                             
+0     0008788c  __TI_zero_init                     
+0     00087892  _system_pre_init                   
+0     00087894  _system_post_cinit                 
+0     00087cb7  uxTopUsedPriority                  
+1     00000400  __stack                            
+1     00000600  __TI_STACK_END                     
+1     0000a800  mySemaphore0Buffer                 
+1     0000a840  idleTaskTCBBuffer                  
+1     0000a880  dalypackTCBBuffer                  
+1     0000a8c0  sendchargeTCBBuffer                
+1     0000a900  recivecmdTCBBuffer                 
+1     0000a9d2  val_adder                          
+1     0000aa1c  ac_i_erro                          
+1     0000aa1e  cmp_d1                             
+1     0000aa20  cmp_d2                             
+1     0000aa22  theta_del                          
+1     0000aa24  I_Sense_R1                         
+1     0000aa26  I_Sense_R2                         
+1     0000aa28  I_Sense_loss                       
+1     0000aa2a  I_Sense_total                      
+1     0000aa2c  I_Sense_H1                         
+1     0000aa2e  I_Sense_H2                         
+1     0000aa30  VDC                                
+1     0000aa32  VCap                               
+1     0000aa34  I_DRV_ToTal                        
+1     0000aa36  I_DRV_1                            
+1     0000aa38  I_DRV_2                            
+1     0000aa3a  I_DRV_3                            
+1     0000aa3c  I_DRV_4                            
+1     0000aa3e  Vref_IV5                           
+1     0000aa76  xQueueRegistry                     
+1     0000aa9e  logchose                           
+1     0000aaa6  dalychose                          
+1     0000aaba  val_adder_chose                    
+1     0000aabe  rxHigherPriorityTaskWoken          
+1     0000aac0  data_lock                          
+1     0000aac1  temp_need_state                    
+1     0000aac2  dalydata_lock                      
+1     0000aac3  logdata_lock                       
+1     0000aac4  tempdata_lock                      
+1     0000aac5  task_lock                          
+1     0000aac6  lock_trig                          
+1     0000aac7  lock_daly_cache                    
+1     0000aac8  lock_daly_task                     
+1     0000aaca  daly_moniter                       
+1     0000aacc  daly_map                           
+1     0000aacf  temp_map                           
+1     0000aad2  RxPacketCtrl                       
+1     0000aad8  TempRxPacketCtrl                   
+1     0000aade  log_map                            
+1     0000aae6  delaylog                           
+1     0000aaee  delaydaly                          
+1     0000ab00  TempRxPacketBuffer                 
+1     0000ab40  range                              
+1     0000abc0  RxPacketBuffer                     
+1     0000ac40  is_open                            
+1     0000ac41  mode_chose                         
+1     0000ac42  i_choise                           
+1     0000ac43  control_flag                       
+1     0000ac44  control_auto                       
+1     0000ac45  control_max                        
+1     0000ac46  control_turn                       
+1     0000ac47  control_send_val                   
+1     0000ac48  over_flag                          
+1     0000ac49  driver_status                      
+1     0000ac4a  pwm_status                         
+1     0000ac4b  message_effect_status              
+1     0000ac4c  machine_status                     
+1     0000ac4d  iic_recive_time                    
+1     0000ac4e  Kp_pid                             
+1     0000ac50  Ki_pid                             
+1     0000ac52  Kp_pr                              
+1     0000ac54  Ki_pr                              
+1     0000ac56  Ki_pr_h3                           
+1     0000ac58  Ki_pr_h5                           
+1     0000ac5a  I_ref                              
+1     0000ac5c  AC_I_ref                           
+1     0000ac5e  CONTROL_TS                         
+1     0000ac60  cmp_1                              
+1     0000ac62  cmp_2                              
+1     0000ac64  cmp_b_hr                           
+1     0000ac66  tbprd                              
+1     0000ac68  phs                                
+1     0000ac6a  phs_hr                             
+1     0000ac6c  pwm_deadband                       
+1     0000ac6e  pi_cmp2_out                        
+1     0000ac70  theta                              
+1     0000ac72  ac_freq                            
+1     0000ac74  ac_mag                             
+1     0000ac76  ac_delt                            
+1     0000ac78  ac_dict                            
+1     0000ac7a  a_i_r1                             
+1     0000ac7c  b_i_r1                             
+1     0000ac7e  a_i_r2                             
+1     0000ac80  b_i_r2                             
+1     0000ac82  a_i_h1                             
+1     0000ac84  b_i_h1                             
+1     0000ac86  a_i_h2                             
+1     0000ac88  b_i_h2                             
+1     0000ac8a  a_vcap                             
+1     0000ac8c  b_vcap                             
+1     0000ac8e  a_vdc                              
+1     0000ac90  b_vdc                              
+1     0000ac92  a_i_loss                           
+1     0000ac94  b_i_loss                           
+1     0000ac96  a_i_total                          
+1     0000ac98  b_i_total                          
+1     0000ac9a  i_pi                               
+1     0000aca4  i_sogi                             
+1     0000acb0  i_sogi_h3                          
+1     0000acc0  i_sogi_h5                          
+1     0000acd4  pxCurrentTCB                       
+1     0000acea  dalypackHandle                     
+1     0000acec  sendchargeHandle                   
+1     0000acee  recivecmdHandle                    
+1     0000acf0  mySemaphore0Handle                 
+1     0000acf2  __TI_enable_exit_profile_output    
+1     0000acf4  __TI_cleanup_ptr                   
+1     0000acf6  __TI_dtors_ptr                     
+1     0000acf8  bYield                             
+1     0000acf9  bPreemptive                        
+1     0000acfa  ulCriticalNesting                  
+1     0000acfc  _lock                              
+1     0000acfe  _unlock                            
+1     0000c000  ucHeap                             
+1     0000c800  sendchargeStackBuffer              
+1     0000c880  dalypackStackBuffer                
+1     0000c980  recivecmdStackBuffer               
+1     0000ca80  idleTaskStack                      
+1     0000e000  delaytemp                          
+1     0000e010  temp_buf                           
+1     0000e030  daly_buf                           
+1     0000e224  log_buf                            
+abs   00000200  __TI_STACK_SIZE                    
+abs   00001083  RamfuncsLoadSize                   
+abs   00001083  RamfuncsRunSize                    
+abs   ffffffff  __TI_pprof_out_hndl                
+abs   ffffffff  __TI_prof_data_size                
+abs   ffffffff  __TI_prof_data_start               
+n/a   UNDEFED   __c_args__                         
+
+[432 symbols]

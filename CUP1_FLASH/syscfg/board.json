@@ -1,0 +1,20 @@
+{
+    "interruptInfo" : [
+        {
+            "interruptName": "INT_timer2",
+            "interruptHandler": "portTICK_ISR"
+        },
+        {
+            "interruptName": "INT_myCPUTIMER0",
+            "interruptHandler": "INT_myCPUTIMER0_ISR"
+        },
+        {
+            "interruptName": "INT_mySCI0_RX",
+            "interruptHandler": "INT_mySCI0_RX_ISR"
+        },
+        {
+            "interruptName": "INT_mySCI0_TX",
+            "interruptHandler": "INT_mySCI0_TX_ISR"
+        }
+    ]
+}
